@@ -13,9 +13,9 @@ log.setLevel(logging.ERROR)
 app = Flask(__name__)
 
 participant = False
-leader_PID = 0
+leader_ID = 0
 
-my_PID = randint(1, 1000000)
+my_ID = randint(1, 1000000)
 
 ip = get_ip.get_lan_ip()
 print(ip)
@@ -36,28 +36,28 @@ def send_message(message, path):
 
 def compare(passed):
     global participant
-    if (passed > my_PID):
-        _thread.start_new_thread(send_PID, (passed, "election"))
-    elif (passed < my_PID and  participant == False):
-        _thread.start_new_thread(send_PID, (my_PID, "election"))
-    elif (passed < my_PID and participant == True):
+    if (passed > my_ID):
+        _thread.start_new_thread(send_message, (passed, "election"))
+    elif (passed < my_ID and  participant == False):
+        _thread.start_new_thread(send_message, (my_ID, "election"))
+    elif (passed < my_ID and participant == True):
         print("Discarding election message")
-    elif (passed == my_PID):
+    elif (passed == my_ID):
         participant = False
-        _thread.start_new_thread(send_PID, (my_PID, "leader"))
+        _thread.start_new_thread(send_message, (my_ID, "leader"))
 
 
 
 
 if (input("Start the election? y/n: ")=='y'):
-    _thread.start_new_thread(send_PID, (my_PID, "election"))
+    _thread.start_new_thread(send_message, (my_ID, "election"))
 
 
 
 @app.route('/election', methods=['POST'])
 def election():
-    passed_PID = int(request.form['PID'])
-    _thread.start_new_thread(compare, (passed_PID,))
+    passed_ID = int(request.form['message'])
+    _thread.start_new_thread(compare, (passed_ID,))
     return "Starting election"
 
 
@@ -65,14 +65,14 @@ def election():
 def leader():
     global participant 
     participant = False
-    leader_PID = int(request.form['PID'])
-    if (my_PID == leader_PID):
+    leader_ID = int(request.form['message'])
+    if (my_ID == leader_ID):
         print("Everyone knows I am the leader now")
         return "I am the leader"
     else:
-        print("Leader PID is  " + str(leader_PID))
-        _thread.start_new_thread(send_PID, (leader_PID, "leader"))
-        return "Leader PID is " + str(leader_PID)
+        print("Leader ID is  " + str(leader_ID))
+        _thread.start_new_thread(send_message, (leader_ID, "leader"))
+        return "Leader ID is " + str(leader_ID)
 
 
 
