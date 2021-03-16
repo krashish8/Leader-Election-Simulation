@@ -13,6 +13,8 @@ python3 start_election.py --startport=8001 --endport=8200
 
 ### Results
 
+Received Messages:
+
 | Nodes |  WBS  | WBS-Modified |
 | ----- | ----- | -------------|
 |   5   |  12   |       8      |
