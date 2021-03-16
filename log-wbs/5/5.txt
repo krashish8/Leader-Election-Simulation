@@ -1,0 +1,7 @@
+[  5] Received message from   0: election
+[  5] Received message from   1: 1
+[  5] Sent message to   1: 1
+[  5] Received ACK from   1
+[  5] Sent message to   4: 1
+[  5] Received ACK from   4
+[  5] Received message from   4: 1

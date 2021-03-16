@@ -42,13 +42,23 @@ send_message_lock = threading.Lock()
 
 once = 0
 
+def save_to_file(message):
+    with open(f'log-wbs/{nodes}/{node_id}.txt', 'a+') as f:
+        f.write(message + '\n')
+    with open(f'log-wbs/{nodes}/all-logs.txt', 'a+') as f:
+        f.write(message + '\n')
+    print(message)
+
+
 def send_message(message, neighbour_port):
     send_message_lock.acquire()
     connection = HTTPConnection(host_ip, neighbour_port)
     connection.request("POST", ("/send"), urllib.parse.urlencode({'id': str(node_id), 'message': message}), headers)
-    print('Sent message ' + message + ' to ' + str(neighbour_port - offset))
+    my_node_id = str(node_id).rjust(3)
+    sent_node_id = str(neighbour_port - offset).rjust(3)
+    save_to_file(f'[{my_node_id}] Sent message to {sent_node_id}: {message}')
     response = connection.getresponse()
-    print('Received ' + response.read().decode("utf-8") + ' from ' + str(neighbour_port - offset))
+    save_to_file(f'[{my_node_id}] Received {response.read().decode("utf-8")} from {sent_node_id}')
     send_message_lock.release()
 
 
@@ -94,7 +104,9 @@ def receive():
     receive_message_lock.acquire()
     received_from = request.form['id']
     message = request.form['message']
-    print('Received message from ' + str(received_from) + ': ' + message)
+    my_node_id = str(node_id).rjust(3)
+    received_node_id = str(received_from).rjust(3)
+    save_to_file(f'[{my_node_id}] Received message from {received_node_id}: {message}')
 
     if (message == "election"):
         # Received an election message
