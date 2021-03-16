@@ -54,11 +54,7 @@ def send_message(message, neighbour_port):
     send_message_lock.acquire()
     connection = HTTPConnection(host_ip, neighbour_port)
     connection.request("POST", ("/send"), urllib.parse.urlencode({'id': str(node_id), 'message': message}), headers)
-    my_node_id = str(node_id).rjust(3)
-    sent_node_id = str(neighbour_port - offset).rjust(3)
-    save_to_file(f'[{my_node_id}] Sent message to {sent_node_id}: {message}')
     response = connection.getresponse()
-    save_to_file(f'[{my_node_id}] Received {response.read().decode("utf-8")} from {sent_node_id}')
     send_message_lock.release()
 
 
@@ -73,6 +69,8 @@ def send_broadcast_message(message):
     once = 1
     for neighbour_port in neighbours_port:
         send_message(message, neighbour_port)
+    my_node_id = str(node_id).rjust(3)
+    save_to_file(f'[{my_node_id}] Sent Broadcast: {message}')
     send_broadcast_message_lock.release()
 
 
@@ -104,15 +102,15 @@ def receive():
     receive_message_lock.acquire()
     received_from = request.form['id']
     message = request.form['message']
-    my_node_id = str(node_id).rjust(3)
-    received_node_id = str(received_from).rjust(3)
-    save_to_file(f'[{my_node_id}] Received message from {received_node_id}: {message}')
 
     if (message == "election"):
         # Received an election message
         _thread.start_new_thread(election, ())
     else:
         # Received some other message
+        my_node_id = str(node_id).rjust(3)
+        received_node_id = str(received_from).rjust(3)
+        save_to_file(f'[{my_node_id}] Received message from {received_node_id}: {message}')
         event.set() # Wake the thread calling election() function, and return True there
         _thread.start_new_thread(send_broadcast_message, (message,)) # Broadcast the message to other neighbour nodes
     receive_message_lock.release()

@@ -1,0 +1,6 @@
+[ 36] Received message from   6: 1
+[ 36] Received message from  13: 1
+[ 36] Received message from  32: 1
+[ 36] Received message from  34: 1
+[ 36] Sent Broadcast: 1
+[ 36] Received message from  50: 1
