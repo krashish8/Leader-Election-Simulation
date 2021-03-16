@@ -46,7 +46,9 @@ def send_message(message, neighbour_port):
     send_message_lock.acquire()
     connection = HTTPConnection(host_ip, neighbour_port)
     connection.request("POST", ("/send"), urllib.parse.urlencode({'id': str(node_id), 'message': message}), headers)
+    print('Sent message ' + message + ' to ' + str(neighbour_port - offset))
     response = connection.getresponse()
+    print('Received ' + response.read().decode("utf-8") + ' from ' + str(neighbour_port - offset))
     send_message_lock.release()
 
 
@@ -56,6 +58,7 @@ def send_broadcast_message(message):
     send_broadcast_message_lock.acquire()
     global once
     if once == 1:
+        send_broadcast_message_lock.release()
         return
     once = 1
     for neighbour_port in neighbours_port:
@@ -66,23 +69,21 @@ def send_broadcast_message(message):
 mutex = threading.Lock()
 event = threading.Event()
 
+
 def election():
     mutex.acquire()
+    # Whenever election message comes, initialize once to 0, and reset the event variable
+    global once
+    once = 0
+    event.clear()
     # wait for node_id seconds
     if event.wait(node_id):
         # If received any message, then return
         mutex.release()
         return
-
     # If timeout of node_id seconds occurs
-    global once
-    if once == 1:
-        mutex.release()
-        return
-    once = 1
-    global participant
     # Declare the current node as the leader
-    _thread.start_new_thread(send_broadcast_message, (str(node_id)))
+    _thread.start_new_thread(send_broadcast_message, (str(node_id),))
     mutex.release()
 
 
@@ -93,6 +94,7 @@ def receive():
     receive_message_lock.acquire()
     received_from = request.form['id']
     message = request.form['message']
+    print('Received message from ' + str(received_from) + ': ' + message)
 
     if (message == "election"):
         # Received an election message
@@ -102,7 +104,7 @@ def receive():
         event.set() # Wake the thread calling election() function, and return True there
         _thread.start_new_thread(send_broadcast_message, (message,)) # Broadcast the message to other neighbour nodes
     receive_message_lock.release()
-    return 'Received message ' + message
+    return 'ACK'
 
 
 if __name__ == '__main__':
