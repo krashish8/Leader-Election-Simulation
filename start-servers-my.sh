@@ -4,5 +4,5 @@
 nodes=$(( $2 - $1 + 1 ))
 for (( i=$1; i<=$2; i++ ))
 do
-    python3 $3 --id=$i --nodes=$nodes --input_file=$4 --history_count=history_count &
+    python3 $3 --id=$i --nodes=$nodes --input_file=$4 --history_count=$5 &
 done

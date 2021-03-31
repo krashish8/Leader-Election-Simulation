@@ -16,9 +16,9 @@ if [ ! -f "log-${algo_without_ext}/result.csv" ]; then
 	echo "Algo,Nodes,Network Filename,History Length,Sent Messages,Received Messages" > "log-${algo_without_ext}/result.csv"
 fi
 
-for (( history_count=1; history_count<=25; history_count++ ));
+for (( history_count=2; history_count<=25; history_count++ ));
 do
-
+	rm -rf log-${algo_without_ext}/${nodes}/*
 	for file in data/$nodes/*;
 	do
 		# Start the server
@@ -46,7 +46,7 @@ do
 		log_file="log-${algo_without_ext}/${nodes}/${filename_without_ext}.txt"
 		sent=$(cat $log_file | grep 'Sent' | wc -l)
 		received=$(cat $log_file | grep 'Received' | wc -l)
-		echo "${algo_without_ext},${nodes},${filename_without_ext},${sent},${received}" >> "log-${algo_without_ext}/result.csv"
+		echo "${algo_without_ext},${nodes},${filename_without_ext},${history_count},${sent},${received}" >> "log-${algo_without_ext}/result.csv"
 
 
 		sleep 1s
