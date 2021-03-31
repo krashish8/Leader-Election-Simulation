@@ -26,7 +26,7 @@ do
 		./start-servers-my.sh 1 $nodes $algo $filename $history_count
 
 		# Start the election
-		sleep 1s
+		sleep 10s
 		python3 start_election.py --startport=$startport --endport=$endport
 
 		# Check if every node receives the leader ID
