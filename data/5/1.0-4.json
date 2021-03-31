@@ -1,0 +1,1 @@
+{"1": {"neighbours": [5], "node_range": 1.0, "x": 2.571426, "y": 0.47425}, "2": {"neighbours": [4], "node_range": 1.0, "x": 4.287506, "y": 0.954141}, "3": {"neighbours": [4], "node_range": 1.0, "x": 4.377521, "y": 2.732516}, "4": {"neighbours": [2, 3], "node_range": 1.0, "x": 4.326389, "y": 1.899061}, "5": {"neighbours": [1], "node_range": 1.0, "x": 3.041425, "y": 0.666915}}
