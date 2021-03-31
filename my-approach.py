@@ -9,6 +9,7 @@ import json
 parser = argparse.ArgumentParser()
 parser.add_argument('--id', required=True, type=int, help='The ID of the current node')
 parser.add_argument('--nodes', required=True, type=int, help = 'Number of nodes in the network')
+parser.add_argument('--history_count', required=True, type=int, help = 'The count of history to store in each node')
 parser.add_argument('--input_file', required=True, help = 'The JSON file containing the nodes of the network')
 args = parser.parse_args()
 
@@ -22,6 +23,7 @@ if args.id < 1 or args.id > args.nodes:
 node_id = args.id
 nodes = args.nodes
 input_file = args.input_file
+history_count = args.history_count
 offset = 8000
 
 node_port = offset + node_id
@@ -49,6 +51,7 @@ once = 0
 import os
 filename = os.path.basename(__file__).split('.')[0]
 os.makedirs(f'log-{filename}/{nodes}', exist_ok=True)
+
 
 def save_to_file(message):
     with open(f'log-{filename}/{nodes}/{input_file}.txt', 'a+') as f:
@@ -93,7 +96,7 @@ def send_message(message, neighbour_port):
 
 send_broadcast_message_lock = threading.Lock()
 
-def send_broadcast_message(message):
+def send_broadcast_message(message, neighbour_id):
     send_broadcast_message_lock.acquire()
     global once
     # Send a broadcast message only once
@@ -101,10 +104,31 @@ def send_broadcast_message(message):
         send_broadcast_message_lock.release()
         return
     once = 1
+
+    exclude_ids = []
+    leader_id = int(message.split('|')[0])
+    try:
+        exclude_ids = list(map(int, message.split('|')[1].split(',')))
+    except:
+        pass
+
+    if len(exclude_ids) == history_count:
+        exclude_ids.pop(0)
+    exclude_ids.append(neighbour_id)
+
+    message = str(leader_id) + '|' + ','.join([str(i) for i in exclude_ids])
+
     sent_message = 0
     for neighbour_port in neighbours_port:
-        sent_message = 1
-        send_message(message, neighbour_port)
+        # Send messages to all the nodes, except the sender of the message
+        flag = 0
+        for exclude_id in exclude_ids:
+            if exclude_id + offset == neighbour_port:
+                flag = 1
+                break
+        if flag == 0:
+            sent_message = 1
+            send_message(message, neighbour_port)
     my_node_id = str(node_id).rjust(3)
     if sent_message:
         save_to_file(f'[{my_node_id}] Sent Broadcast: {message}')
@@ -133,7 +157,7 @@ def election():
     # If timeout of node_id seconds occurs
     # Declare the current node as the leader
     save_leader(str(node_id))
-    _thread.start_new_thread(send_broadcast_message, (str(node_id),))
+    _thread.start_new_thread(send_broadcast_message, (str(node_id), 0))
     mutex.release()
 
 
@@ -154,7 +178,7 @@ def receive():
         received_node_id = str(received_from).rjust(3)
         save_to_file(f'[{my_node_id}] Received message from {received_node_id}: {message}')
         event.set() # Wake the thread calling election() function, and return True there
-        _thread.start_new_thread(send_broadcast_message, (message,)) # Broadcast the message to other neighbour nodes
+        _thread.start_new_thread(send_broadcast_message, (message, int(received_from))) # Broadcast the message to other neighbour nodes
     receive_message_lock.release()
     return 'ACK'
 

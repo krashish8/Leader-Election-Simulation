@@ -124,9 +124,11 @@ event = threading.Event()
 def election():
     mutex.acquire()
     # Whenever election message comes, initialize once to 0, and reset the event variable
+    '''
     global once
     once = 0
     event.clear()
+    '''
     # wait for node_id seconds
     if event.wait(node_id):
         # If received any message, then return
