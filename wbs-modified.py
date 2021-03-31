@@ -9,6 +9,7 @@ import json
 parser = argparse.ArgumentParser()
 parser.add_argument('--id', required=True, type=int, help='The ID of the current node')
 parser.add_argument('--nodes', required=True, type=int, help = 'Number of nodes in the network')
+parser.add_argument('--input_file', required=True, help = 'The JSON file containing the nodes of the network')
 args = parser.parse_args()
 
 if (args.nodes != 5 and args.nodes != 50 and args.nodes != 100 and args.nodes != 150 and args.nodes != 200):
@@ -20,13 +21,16 @@ if args.id < 1 or args.id > args.nodes:
 
 node_id = args.id
 nodes = args.nodes
+input_file = args.input_file
 offset = 8000
 
 node_port = offset + node_id
 
 network = None
-with open('data/network-' + str(nodes) + '.json', 'r') as fp:
+with open('data/' + str(nodes) + '/' + input_file, 'r') as fp:
     network = json.load(fp)
+
+input_file = input_file[:-5]
 
 host_ip = '127.0.0.1'
 
@@ -42,12 +46,42 @@ send_message_lock = threading.Lock()
 
 once = 0
 
+import os
+filename = os.path.basename(__file__).split('.')[0]
+os.makedirs(f'log-{filename}/{nodes}', exist_ok=True)
+
+
 def save_to_file(message):
-    with open(f'log-wbs-modified/{nodes}/{node_id}.txt', 'a+') as f:
+    with open(f'log-{filename}/{nodes}/{input_file}.txt', 'a+') as f:
         f.write(message + '\n')
-    with open(f'log-wbs-modified/{nodes}/all-logs.txt', 'a+') as f:
-        f.write(message + '\n')
-    print(message)
+
+def save_leader(leader_id):
+    with open(f'log-{filename}/{nodes}/{input_file}-leader.txt', 'w') as f:
+        f.write(leader_id)
+
+def check_leader(leader_id):
+    # Check whether the value received is the correct leader
+    leader = None
+    with open(f'log-{filename}/{nodes}/{input_file}-leader.txt', 'r') as f:
+        leader = f.read()
+    assert(leader == leader_id)
+
+import fcntl
+
+f = open(f'log-{filename}/{nodes}/{input_file}-count.txt', 'w')
+f.write("0")
+f.close()
+
+def increment_count():
+    f = open(f'log-{filename}/{nodes}/{input_file}-count.txt', 'r+')
+    fcntl.lockf(f, fcntl.LOCK_EX)
+    x = f.read()
+    f.seek(0)
+    f.truncate()
+    x = int(x)
+    x = str(x + 1)
+    f.write(x)
+    fcntl.lockf(f, fcntl.LOCK_EX)
 
 
 def send_message(message, neighbour_port):
@@ -63,17 +97,23 @@ send_broadcast_message_lock = threading.Lock()
 def send_broadcast_message(message, exclude_id):
     send_broadcast_message_lock.acquire()
     global once
+    # Send a broadcast message only once
     if once == 1:
         send_broadcast_message_lock.release()
         return
     once = 1
+    sent_message = 0
     for neighbour_port in neighbours_port:
         # Send messages to all the nodes, except the sender of the message
         if exclude_id + offset == neighbour_port:
             continue
+        sent_message = 1
         send_message(message, neighbour_port)
     my_node_id = str(node_id).rjust(3)
-    save_to_file(f'[{my_node_id}] Sent Broadcast: {message}')
+    if sent_message:
+        save_to_file(f'[{my_node_id}] Sent Broadcast: {message}|{exclude_id}')
+    check_leader(message)
+    increment_count()
     send_broadcast_message_lock.release()
 
 
@@ -94,6 +134,7 @@ def election():
         return
     # If timeout of node_id seconds occurs
     # Declare the current node as the leader
+    save_leader(str(node_id))
     _thread.start_new_thread(send_broadcast_message, (str(node_id), 0))
     mutex.release()
 
