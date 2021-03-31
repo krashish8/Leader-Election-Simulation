@@ -1,4 +1,0 @@
-[ 17] Received message from  82: 3
-[ 17] Received message from  32: 3
-[ 17] Sent Broadcast: 3
-[ 17] Received message from  64: 3

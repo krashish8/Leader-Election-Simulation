@@ -1,8 +1,0 @@
-[ 78] Received message from  24: 3
-[ 78] Received message from  37: 3
-[ 78] Received message from  14: 3
-[ 78] Received message from  59: 3
-[ 78] Received message from  58: 3
-[ 78] Received message from  79: 3
-[ 78] Sent Broadcast: 3
-[ 78] Received message from  87: 3

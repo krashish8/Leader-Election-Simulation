@@ -1,6 +1,0 @@
-[ 48] Received message from  39: 1
-[ 48] Received message from  42: 1
-[ 48] Received message from   8: 1
-[ 48] Received message from  23: 1
-[ 48] Sent Broadcast: 1
-[ 48] Received message from  19: 1

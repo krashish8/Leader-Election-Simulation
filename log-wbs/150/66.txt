@@ -1,5 +1,0 @@
-[ 66] Received message from   4: 1
-[ 66] Received message from  46: 1
-[ 66] Received message from  82: 1
-[ 66] Sent Broadcast: 1
-[ 66] Received message from 141: 1

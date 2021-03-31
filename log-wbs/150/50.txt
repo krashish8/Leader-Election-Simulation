@@ -1,8 +1,0 @@
-[ 50] Received message from  25: 1
-[ 50] Received message from  71: 1
-[ 50] Received message from  93: 1
-[ 50] Received message from 103: 1
-[ 50] Sent Broadcast: 1
-[ 50] Received message from  98: 1
-[ 50] Received message from 120: 1
-[ 50] Received message from 126: 1

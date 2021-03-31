@@ -1,2 +1,0 @@
-[ 45] Received message from  42: 1
-[ 45] Sent Broadcast: 1

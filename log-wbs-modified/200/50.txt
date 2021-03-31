@@ -1,3 +1,0 @@
-[ 50] Received message from  11: 1
-[ 50] Received message from   3: 1
-[ 50] Sent Broadcast: 1

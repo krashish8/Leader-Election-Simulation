@@ -1,3 +1,0 @@
-[173] Received message from  72: 1
-[173] Sent Broadcast: 1
-[173] Received message from  74: 1

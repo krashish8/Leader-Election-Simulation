@@ -1,8 +1,0 @@
-[ 72] Received message from  76: 1
-[ 72] Received message from  19: 1
-[ 72] Received message from  39: 1
-[ 72] Received message from  55: 1
-[ 72] Received message from   2: 1
-[ 72] Received message from  49: 1
-[ 72] Sent Broadcast: 1
-[ 72] Received message from  75: 1

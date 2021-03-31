@@ -1,5 +1,0 @@
-[ 45] Received message from  42: 1
-[ 45] Sent Broadcast: 1
-[ 45] Received message from  15: 1
-[ 45] Received message from  13: 1
-[ 45] Received message from  28: 1

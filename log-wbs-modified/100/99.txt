@@ -1,8 +1,0 @@
-[ 99] Received message from  77: 1
-[ 99] Received message from  35: 1
-[ 99] Received message from  45: 1
-[ 99] Received message from   9: 1
-[ 99] Received message from  47: 1
-[ 99] Received message from  70: 1
-[ 99] Received message from  71: 1
-[ 99] Sent Broadcast: 1

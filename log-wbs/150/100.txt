@@ -1,7 +1,0 @@
-[100] Received message from  22: 1
-[100] Received message from  72: 1
-[100] Received message from  44: 1
-[100] Received message from  91: 1
-[100] Sent Broadcast: 1
-[100] Received message from 128: 1
-[100] Received message from 132: 1

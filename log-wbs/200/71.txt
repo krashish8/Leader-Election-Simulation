@@ -1,8 +1,0 @@
-[ 71] Received message from  29: 1
-[ 71] Received message from 142: 1
-[ 71] Received message from  76: 1
-[ 71] Received message from  78: 1
-[ 71] Received message from  86: 1
-[ 71] Received message from 107: 1
-[ 71] Sent Broadcast: 1
-[ 71] Received message from 193: 1

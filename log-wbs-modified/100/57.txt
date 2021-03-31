@@ -1,2 +1,0 @@
-[ 57] Received message from  52: 52
-[ 57] Sent Broadcast: 52

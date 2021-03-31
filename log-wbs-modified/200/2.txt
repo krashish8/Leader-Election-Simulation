@@ -1,2 +1,0 @@
-[  2] Received message from 185: 1
-[  2] Sent Broadcast: 1

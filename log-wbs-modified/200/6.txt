@@ -1,4 +1,0 @@
-[  6] Received message from  80: 1
-[  6] Received message from 187: 1
-[  6] Received message from  35: 1
-[  6] Sent Broadcast: 1

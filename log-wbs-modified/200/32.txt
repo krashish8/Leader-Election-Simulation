@@ -1,2 +1,0 @@
-[ 32] Received message from 160: 1
-[ 32] Sent Broadcast: 1

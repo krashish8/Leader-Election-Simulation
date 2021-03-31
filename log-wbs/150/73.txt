@@ -1,5 +1,0 @@
-[ 73] Received message from 107: 1
-[ 73] Received message from  18: 1
-[ 73] Received message from 118: 1
-[ 73] Received message from 145: 1
-[ 73] Sent Broadcast: 1

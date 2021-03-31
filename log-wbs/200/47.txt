@@ -1,3 +1,0 @@
-[ 47] Received message from 113: 1
-[ 47] Received message from  68: 1
-[ 47] Sent Broadcast: 1
