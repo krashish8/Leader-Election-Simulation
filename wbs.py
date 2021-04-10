@@ -48,31 +48,31 @@ once = 0
 
 import os
 filename = os.path.basename(__file__).split('.')[0]
-os.makedirs(f'log-{filename}/{nodes}', exist_ok=True)
+os.makedirs(f'results/log-{filename}/{nodes}', exist_ok=True)
 
 def save_to_file(message):
-    with open(f'log-{filename}/{nodes}/{input_file}.txt', 'a+') as f:
+    with open(f'results/log-{filename}/{nodes}/{input_file}.txt', 'a+') as f:
         f.write(message + '\n')
 
 def save_leader(leader_id):
-    with open(f'log-{filename}/{nodes}/{input_file}-leader.txt', 'w') as f:
+    with open(f'results/log-{filename}/{nodes}/{input_file}-leader.txt', 'w') as f:
         f.write(leader_id)
 
 def check_leader(leader_id):
     # Check whether the value received is the correct leader
     leader = None
-    with open(f'log-{filename}/{nodes}/{input_file}-leader.txt', 'r') as f:
+    with open(f'results/log-{filename}/{nodes}/{input_file}-leader.txt', 'r') as f:
         leader = f.read()
     # assert(leader == leader_id)
 
 import fcntl
 
-f = open(f'log-{filename}/{nodes}/{input_file}-count.txt', 'w')
+f = open(f'results/log-{filename}/{nodes}/{input_file}-count.txt', 'w')
 f.write("0")
 f.close()
 
 def increment_count():
-    f = open(f'log-{filename}/{nodes}/{input_file}-count.txt', 'r+')
+    f = open(f'results/log-{filename}/{nodes}/{input_file}-count.txt', 'r+')
     fcntl.lockf(f, fcntl.LOCK_EX)
     x = f.read()
     f.seek(0)

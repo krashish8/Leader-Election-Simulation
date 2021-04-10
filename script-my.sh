@@ -8,17 +8,21 @@ endport=$((startport-1+nodes))
 
 algo_without_ext="${algo%.*}"
 
-if [ ! -d "log-${algo_without_ext}" ]; then
-	mkdir "log-${algo_without_ext}"
+if [ ! -d "results" ]; then
+	mkdir "results"
 fi
 
-if [ ! -f "log-${algo_without_ext}/result.csv" ]; then
-	echo "Algo,Nodes,Network Filename,History Length,Sent Messages,Received Messages" > "log-${algo_without_ext}/result.csv"
+if [ ! -d "results/log-${algo_without_ext}" ]; then
+	mkdir "results/log-${algo_without_ext}"
+fi
+
+if [ ! -f "results/log-${algo_without_ext}/result.csv" ]; then
+	echo "Algo,Nodes,Network Filename,History Length,Sent Messages,Received Messages" > "results/log-${algo_without_ext}/result.csv"
 fi
 
 for (( history_count=2; history_count<=25; history_count++ ));
 do
-	rm -rf log-${algo_without_ext}/${nodes}/*
+	rm -rf results/log-${algo_without_ext}/${nodes}/*
 	for file in data/$nodes/*;
 	do
 		# Start the server
@@ -34,7 +38,7 @@ do
 		filename_without_ext="${filename%.*}"
 		while true;
 		do
-			if [[ $(cat "log-${algo_without_ext}/${nodes}/${filename_without_ext}-count.txt") -eq $nodes ]];
+			if [[ $(cat "results/log-${algo_without_ext}/${nodes}/${filename_without_ext}-count.txt") -eq $nodes ]];
 			then
 				break
 			fi
@@ -43,10 +47,10 @@ do
 
 		# Save the result
 		sleep 1s
-		log_file="log-${algo_without_ext}/${nodes}/${filename_without_ext}.txt"
+		log_file="results/log-${algo_without_ext}/${nodes}/${filename_without_ext}.txt"
 		sent=$(cat $log_file | grep 'Sent' | wc -l)
 		received=$(cat $log_file | grep 'Received' | wc -l)
-		echo "${algo_without_ext},${nodes},${filename_without_ext},${history_count},${sent},${received}" >> "log-${algo_without_ext}/result.csv"
+		echo "${algo_without_ext},${nodes},${filename_without_ext},${history_count},${sent},${received}" >> "results/log-${algo_without_ext}/result.csv"
 
 
 		sleep 1s
