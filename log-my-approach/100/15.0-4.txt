@@ -1,0 +1,592 @@
+[ 21] Received message from   1: 1|0
+[ 51] Received message from   1: 1|0
+[ 17] Received message from  21: 1|0,1
+[ 57] Received message from   1: 1|0
+[ 21] Received message from  51: 1|0,1
+[ 20] Received message from  17: 1|0,1,21
+[ 79] Received message from   1: 1|0
+[ 57] Received message from  51: 1|0,1
+[ 50] Received message from  17: 1|0,1,21
+[ 20] Received message from  21: 1|0,1
+[ 17] Received message from  57: 1|0,1
+[ 93] Received message from   1: 1|0
+[ 50] Received message from  20: 1|0,1,21,17
+[ 79] Received message from  51: 1|0,1
+[ 20] Received message from  57: 1|0,1
+[ 96] Received message from   1: 1|0
+[ 21] Received message from  79: 1|0,1
+[  1] Sent Broadcast: 1|0
+[ 57] Received message from  17: 1|0,1,21
+[ 21] Received message from  93: 1|0,1
+[ 80] Received message from  51: 1|0,1
+[ 20] Received message from  50: 1|0,1,21,17
+[ 50] Received message from  21: 1|0,1
+[ 51] Received message from  79: 1|0,1
+[ 21] Received message from  57: 1|0,1
+[ 51] Received message from  96: 1|0,1
+[ 81] Received message from  51: 1|0,1
+[ 78] Received message from  17: 1|0,1,21
+[ 57] Received message from  20: 1|0,1,21,17
+[ 57] Received message from  50: 1|0,1,21,17
+[ 50] Received message from  57: 1|0,1
+[ 10] Received message from  80: 1|0,1,51
+[ 51] Received message from  93: 1|0,1
+[ 79] Received message from  96: 1|0,1
+[ 20] Received message from  78: 1|0,1,21,17
+[ 93] Received message from  51: 1|0,1
+[ 94] Received message from  17: 1|0,1,21
+[ 57] Received message from  79: 1|0,1
+[ 78] Received message from  20: 1|0,1,21,17
+[ 51] Received message from  21: 1|0,1
+[ 19] Received message from  81: 1|0,1,51
+[ 51] Received message from  57: 1|0,1
+[ 81] Received message from  96: 1|0,1
+[ 96] Received message from  51: 1|0,1
+[ 57] Received message from  93: 1|0,1
+[ 78] Received message from  50: 1|0,1,21,17
+[ 94] Received message from  20: 1|0,1,21,17
+[  5] Received message from  10: 1|0,1,51,80
+[ 16] Received message from  80: 1|0,1,51
+[ 80] Received message from  79: 1|0,1
+[ 50] Received message from  78: 1|0,1,21,17
+[ 36] Received message from  81: 1|0,1,51
+[ 62] Received message from  57: 1|0,1
+[ 51] Sent Broadcast: 1|0,1
+[ 20] Sent Broadcast: 1|0,1,21,17
+[ 98] Received message from  17: 1|0,1,21
+[ 17] Sent Broadcast: 1|0,1,21
+[ 82] Received message from  96: 1|0,1
+[ 57] Received message from  21: 1|0,1
+[ 20] Received message from  94: 1|0,1,21,17
+[ 16] Received message from  10: 1|0,1,51,80
+[ 21] Received message from  80: 1|0,1,51
+[ 81] Received message from  79: 1|0,1
+[ 79] Received message from  81: 1|0,1,51
+[ 93] Received message from  96: 1|0,1
+[ 26] Received message from  10: 1|0,1,51,80
+[  5] Received message from  16: 1|0,1,51,80
+[ 62] Received message from  21: 1|0,1
+[ 96] Sent Broadcast: 1|0,1
+[ 31] Received message from  19: 1|0,1,51,81
+[ 21] Received message from  62: 1|0,1,57
+[ 50] Received message from  98: 1|0,1,21,17
+[ 94] Received message from  50: 1|0,1,21,17
+[ 79] Received message from  93: 1|0,1
+[ 19] Received message from  36: 1|0,1,51,81
+[ 16] Received message from   5: 1|0,1,51,80,10
+[ 82] Received message from  81: 1|0,1,51
+[ 79] Received message from  57: 1|0,1
+[ 57] Received message from  80: 1|0,1,51
+[ 50] Received message from  94: 1|0,1,21,17
+[ 93] Received message from  79: 1|0,1
+[ 94] Received message from  78: 1|0,1,21,17
+[ 78] Sent Broadcast: 1|0,1,21,17
+[ 79] Received message from  21: 1|0,1
+[ 98] Received message from  50: 1|0,1,21,17
+[ 19] Received message from  82: 1|0,1,96
+[ 50] Sent Broadcast: 1|0,1,21,17
+[ 28] Received message from  36: 1|0,1,51,81
+[ 36] Received message from  19: 1|0,1,51,81
+[ 66] Received message from  62: 1|0,1,57
+[ 93] Received message from  81: 1|0,1,51
+[ 81] Received message from  93: 1|0,1
+[ 57] Received message from  98: 1|0,1,21,17
+[ 25] Received message from   5: 1|0,1,51,80,10
+[ 10] Received message from  16: 1|0,1,51,80
+[ 80] Received message from  57: 1|0,1
+[ 38] Received message from  10: 1|0,1,51,80
+[ 36] Received message from  82: 1|0,1,96
+[ 57] Received message from  94: 1|0,1,21,17
+[  7] Received message from  31: 1|0,1,51,81,19
+[ 62] Received message from  80: 1|0,1,51
+[ 31] Received message from  36: 1|0,1,51,81
+[ 26] Received message from   5: 1|0,1,51,80,10
+[  5] Received message from  26: 1|0,1,51,80,10
+[ 82] Received message from  93: 1|0,1
+[ 56] Received message from  19: 1|0,1,51,81
+[ 93] Received message from  57: 1|0,1
+[ 26] Received message from  16: 1|0,1,51,80
+[ 96] Received message from  79: 1|0,1
+[ 96] Received message from  81: 1|0,1,51
+[ 78] Received message from  94: 1|0,1,21,17
+[ 81] Sent Broadcast: 1|0,1,51
+[ 72] Received message from  62: 1|0,1,57
+[ 79] Sent Broadcast: 1|0,1
+[ 80] Received message from  21: 1|0,1
+[ 10] Received message from  66: 1|0,1,57,62
+[ 46] Received message from  10: 1|0,1,51,80
+[  7] Received message from  28: 1|0,1,51,81,36
+[ 16] Received message from  26: 1|0,1,51,80,10
+[ 46] Received message from  16: 1|0,1,51,80
+[ 62] Received message from  98: 1|0,1,21,17
+[ 82] Received message from  19: 1|0,1,51,81
+[ 38] Received message from   5: 1|0,1,51,80,10
+[ 19] Sent Broadcast: 1|0,1,51,81
+[  5] Received message from  38: 1|0,1,51,80,10
+[ 66] Received message from  80: 1|0,1,51
+[ 56] Received message from  82: 1|0,1,96
+[ 26] Received message from  25: 1|1,51,80,10,5
+[ 16] Received message from  66: 1|0,1,57,62
+[ 96] Received message from  93: 1|0,1
+[ 94] Received message from  57: 1|0,1
+[ 93] Received message from  21: 1|0,1
+[ 98] Received message from  94: 1|0,1,21,17
+[ 40] Received message from  72: 1|0,1,57,62
+[ 80] Received message from  62: 1|0,1,57
+[ 27] Received message from  31: 1|0,1,51,81,19
+[ 13] Received message from   7: 1|1,51,81,19,31
+[  5] Received message from  46: 1|0,1,51,80,10
+[ 46] Received message from   5: 1|0,1,51,80,10
+[ 82] Received message from  36: 1|0,1,51,81
+[ 66] Received message from  10: 1|0,1,51,80
+[ 94] Sent Broadcast: 1|0,1,21,17
+[ 93] Sent Broadcast: 1|0,1
+[ 25] Received message from  26: 1|0,1,51,80,10
+[ 81] Received message from  82: 1|0,1,96
+[ 36] Sent Broadcast: 1|0,1,51,81
+[ 19] Received message from  56: 1|0,1,96,82
+[ 72] Received message from  98: 1|0,1,21,17
+[ 13] Received message from  28: 1|0,1,51,81,36
+[ 79] Received message from  80: 1|0,1,51
+[ 66] Received message from  16: 1|0,1,51,80
+[ 49] Received message from   5: 1|0,1,51,80,10
+[ 43] Received message from  40: 1|0,1,57,62,72
+[ 93] Received message from  82: 1|0,1,96
+[ 72] Received message from  66: 1|0,1,57,62
+[ 94] Received message from  21: 1|0,1
+[ 16] Received message from  46: 1|0,1,51,80,10
+[ 25] Received message from  38: 1|0,1,51,80,10
+[ 31] Received message from  56: 1|0,1,96,82
+[ 23] Received message from  13: 1|51,81,19,31,7
+[ 38] Received message from  25: 1|1,51,80,10,5
+[ 94] Received message from  98: 1|0,1,21,17
+[ 98] Received message from  57: 1|0,1
+[ 67] Received message from  10: 1|0,1,51,80
+[ 28] Received message from  31: 1|0,1,51,81,19
+[100] Received message from  80: 1|0,1,51
+[ 82] Sent Broadcast: 1|0,1,96
+[ 57] Sent Broadcast: 1|0,1
+[ 80] Sent Broadcast: 1|0,1,51
+[ 67] Received message from  16: 1|0,1,51,80
+[ 53] Received message from  40: 1|0,1,57,62,72
+[  7] Received message from  27: 1|1,51,81,19,31
+[ 38] Received message from  26: 1|0,1,51,80,10
+[ 43] Received message from  72: 1|0,1,57,62
+[ 98] Received message from  62: 1|0,1,57
+[ 25] Received message from  49: 1|1,51,80,10,5
+[ 23] Received message from   7: 1|1,51,81,19,31
+[ 74] Received message from  40: 1|0,1,57,62,72
+[ 27] Received message from  13: 1|51,81,19,31,7
+[ 46] Received message from  25: 1|1,51,80,10,5
+[100] Received message from  10: 1|0,1,51,80
+[ 23] Received message from  28: 1|0,1,51,81,36
+[ 84] Received message from  56: 1|0,1,96,82
+[ 13] Received message from  27: 1|1,51,81,19,31
+[ 99] Received message from  98: 1|0,1,21,17
+[ 67] Received message from   5: 1|0,1,51,80,10
+[ 56] Sent Broadcast: 1|0,1,96,82
+[ 10] Sent Broadcast: 1|0,1,51,80
+[ 38] Received message from  49: 1|1,51,80,10,5
+[ 26] Received message from  38: 1|0,1,51,80,10
+[ 28] Received message from  23: 1|81,19,31,7,13
+[ 36] Received message from  31: 1|0,1,51,81,19
+[ 80] Received message from  66: 1|0,1,57,62
+[ 25] Received message from  46: 1|0,1,51,80,10
+[ 98] Sent Broadcast: 1|0,1,21,17
+[ 98] Received message from  21: 1|0,1
+[ 21] Sent Broadcast: 1|0,1
+[  5] Received message from  67: 1|0,1,51,80,10
+[ 53] Received message from  72: 1|0,1,57,62
+[ 49] Received message from  25: 1|1,51,80,10,5
+[ 53] Received message from  43: 1|1,57,62,72,40
+[ 52] Received message from  27: 1|1,51,81,19,31
+[ 25] Sent Broadcast: 1|1,51,80,10,5
+[ 28] Received message from  13: 1|51,81,19,31,7
+[ 99] Received message from  40: 1|0,1,57,62,72
+[100] Received message from  16: 1|0,1,51,80
+[ 26] Received message from  46: 1|0,1,51,80,10
+[ 32] Received message from  23: 1|81,19,31,7,13
+[ 27] Received message from   7: 1|1,51,81,19,31
+[  5] Received message from 100: 1|0,1,51,80
+[ 46] Received message from  26: 1|0,1,51,80,10
+[ 43] Received message from  53: 1|1,57,62,72,40
+[ 40] Sent Broadcast: 1|0,1,57,62,72
+[ 16] Sent Broadcast: 1|0,1,51,80
+[ 52] Received message from  31: 1|0,1,51,81,19
+[  6] Received message from  67: 1|0,1,51,80,10
+[ 74] Received message from  43: 1|1,57,62,72,40
+[ 46] Received message from  49: 1|1,51,80,10,5
+[ 31] Received message from  28: 1|0,1,51,81,36
+[ 49] Sent Broadcast: 1|1,51,80,10,5
+[100] Received message from  62: 1|0,1,57
+[ 62] Sent Broadcast: 1|0,1,57
+[ 31] Received message from  84: 1|0,1,96,82,56
+[ 43] Received message from  74: 1|1,57,62,72,40
+[ 40] Received message from  99: 1|0,1,21,17,98
+[ 84] Sent Broadcast: 1|0,1,96,82,56
+[ 95] Received message from  27: 1|1,51,81,19,31
+[ 74] Received message from  53: 1|1,57,62,72,40
+[ 99] Received message from  43: 1|1,57,62,72,40
+[ 66] Received message from  72: 1|0,1,57,62
+[ 28] Received message from   7: 1|1,51,81,19,31
+[ 10] Received message from 100: 1|0,1,51,80
+[ 56] Received message from  31: 1|0,1,51,81,19
+[ 46] Received message from  38: 1|0,1,51,80,10
+[100] Received message from   5: 1|0,1,51,80,10
+[ 32] Received message from  13: 1|51,81,19,31,7
+[ 38] Received message from  46: 1|0,1,51,80,10
+[100] Received message from  66: 1|0,1,57,62
+[ 52] Received message from  23: 1|81,19,31,7,13
+[ 43] Sent Broadcast: 1|1,57,62,72,40
+[ 27] Sent Broadcast: 1|1,51,81,19,31
+[ 53] Received message from  74: 1|1,57,62,72,40
+[ 67] Received message from  26: 1|0,1,51,80,10
+[ 16] Received message from  67: 1|0,1,51,80,10
+[  5] Sent Broadcast: 1|0,1,51,80,10
+[ 66] Sent Broadcast: 1|0,1,57,62
+[  7] Received message from  52: 1|51,81,19,31,27
+[ 54] Received message from  32: 1|19,31,7,13,23
+[ 52] Received message from  28: 1|0,1,51,81,36
+[ 84] Received message from  31: 1|0,1,51,81,19
+[ 43] Received message from  99: 1|0,1,21,17,98
+[ 26] Received message from  67: 1|0,1,51,80,10
+[ 16] Received message from 100: 1|0,1,51,80
+[ 31] Sent Broadcast: 1|0,1,51,81,19
+[ 74] Received message from  72: 1|0,1,57,62
+[ 34] Received message from   6: 1|1,51,80,10,67
+[ 49] Received message from  38: 1|0,1,51,80,10
+[  2] Received message from  95: 1|51,81,19,31,27
+[ 86] Received message from  26: 1|0,1,51,80,10
+[ 54] Received message from  23: 1|81,19,31,7,13
+[ 52] Received message from   7: 1|1,51,81,19,31
+[ 13] Received message from  52: 1|51,81,19,31,27
+[ 99] Received message from  53: 1|1,57,62,72,40
+[ 28] Received message from  54: 1|31,7,13,23,32
+[ 61] Received message from  32: 1|19,31,7,13,23
+[ 52] Received message from  13: 1|51,81,19,31,7
+[ 98] Received message from  72: 1|0,1,57,62
+[ 26] Received message from 100: 1|0,1,51,80
+[ 49] Received message from  46: 1|0,1,51,80,10
+[ 34] Received message from  67: 1|0,1,51,80,10
+[ 73] Received message from   6: 1|1,51,80,10,67
+[ 32] Sent Broadcast: 1|19,31,7,13,23
+[ 53] Received message from  99: 1|0,1,21,17,98
+[ 53] Sent Broadcast: 1|1,57,62,72,40
+[ 54] Received message from  28: 1|0,1,51,81,36
+[100] Received message from  26: 1|0,1,51,80,10
+[ 26] Sent Broadcast: 1|0,1,51,80,10
+[ 99] Received message from  74: 1|1,57,62,72,40
+[ 74] Sent Broadcast: 1|1,57,62,72,40
+[100] Received message from  46: 1|0,1,51,80,10
+[ 46] Sent Broadcast: 1|0,1,51,80,10
+[ 72] Received message from  99: 1|0,1,21,17,98
+[ 54] Received message from   7: 1|1,51,81,19,31
+[ 46] Received message from 100: 1|0,1,51,80
+[ 15] Received message from  95: 1|51,81,19,31,27
+[ 61] Received message from  28: 1|0,1,51,81,36
+[ 29] Received message from  86: 1|1,51,80,10,26
+[ 52] Received message from  54: 1|31,7,13,23,32
+[ 86] Received message from  38: 1|0,1,51,80,10
+[ 23] Received message from  52: 1|51,81,19,31,27
+[ 38] Sent Broadcast: 1|0,1,51,80,10
+[ 99] Received message from  72: 1|0,1,57,62
+[ 76] Received message from  67: 1|0,1,51,80,10
+[ 73] Received message from  34: 1|51,80,10,67,6
+[ 61] Received message from  23: 1|81,19,31,7,13
+[ 72] Sent Broadcast: 1|0,1,57,62
+[ 28] Sent Broadcast: 1|0,1,51,81,36
+[ 23] Sent Broadcast: 1|81,19,31,7,13
+[ 15] Received message from   2: 1|81,19,31,27,95
+[ 76] Received message from   6: 1|1,51,80,10,67
+[ 65] Received message from  95: 1|51,81,19,31,27
+[ 28] Received message from  52: 1|51,81,19,31,27
+[ 62] Received message from 100: 1|0,1,51,80
+[ 74] Received message from  99: 1|0,1,21,17,98
+[ 99] Sent Broadcast: 1|0,1,21,17,98
+[  9] Received message from  73: 1|51,80,10,67,6
+[ 54] Received message from  13: 1|51,81,19,31,7
+[ 76] Received message from  34: 1|51,80,10,67,6
+[ 83] Received message from   6: 1|1,51,80,10,67
+[ 61] Received message from   7: 1|1,51,81,19,31
+[ 28] Received message from  61: 1|31,7,13,23,32
+[  7] Sent Broadcast: 1|1,51,81,19,31
+[ 65] Received message from   2: 1|81,19,31,27,95
+[ 54] Received message from  52: 1|51,81,19,31,27
+[ 86] Received message from  67: 1|0,1,51,80,10
+[ 38] Received message from  86: 1|1,51,80,10,26
+[ 67] Sent Broadcast: 1|0,1,51,80,10
+[  6] Sent Broadcast: 1|1,51,80,10,67
+[ 66] Received message from 100: 1|0,1,51,80
+[100] Sent Broadcast: 1|0,1,51,80
+[  2] Received message from  15: 1|81,19,31,27,95
+[ 69] Received message from  95: 1|51,81,19,31,27
+[ 61] Received message from  54: 1|31,7,13,23,32
+[ 54] Sent Broadcast: 1|31,7,13,23,32
+[ 34] Received message from  73: 1|51,80,10,67,6
+[ 18] Received message from   9: 1|80,10,67,6,73
+[  2] Received message from  65: 1|81,19,31,27,95
+[ 67] Received message from  86: 1|1,51,80,10,26
+[ 34] Received message from  76: 1|51,80,10,67,6
+[ 83] Received message from  34: 1|51,80,10,67,6
+[ 86] Sent Broadcast: 1|1,51,80,10,26
+[ 63] Received message from  29: 1|51,80,10,26,86
+[ 34] Sent Broadcast: 1|51,80,10,67,6
+[ 69] Received message from   2: 1|81,19,31,27,95
+[ 61] Received message from  13: 1|51,81,19,31,7
+[ 65] Received message from  15: 1|81,19,31,27,95
+[ 13] Sent Broadcast: 1|51,81,19,31,7
+[ 77] Received message from  95: 1|51,81,19,31,27
+[ 52] Received message from  61: 1|31,7,13,23,32
+[ 61] Received message from  52: 1|51,81,19,31,27
+[ 52] Sent Broadcast: 1|51,81,19,31,27
+[ 73] Received message from  76: 1|51,80,10,67,6
+[ 87] Received message from   2: 1|81,19,31,27,95
+[ 69] Received message from  15: 1|81,19,31,27,95
+[ 22] Received message from  63: 1|80,10,26,86,29
+[ 76] Received message from  73: 1|51,80,10,67,6
+[ 12] Received message from  65: 1|81,19,31,27,95
+[  2] Sent Broadcast: 1|81,19,31,27,95
+[ 91] Received message from  29: 1|51,80,10,26,86
+[ 29] Sent Broadcast: 1|51,80,10,26,86
+[  8] Received message from  18: 1|10,67,6,73,9
+[ 34] Received message from  83: 1|51,80,10,67,6
+[ 24] Received message from   9: 1|80,10,67,6,73
+[ 77] Received message from  15: 1|81,19,31,27,95
+[ 54] Received message from  61: 1|31,7,13,23,32
+[ 12] Received message from  69: 1|19,31,27,95,2
+[ 61] Sent Broadcast: 1|31,7,13,23,32
+[ 15] Received message from  65: 1|81,19,31,27,95
+[ 83] Received message from  76: 1|51,80,10,67,6
+[ 76] Sent Broadcast: 1|51,80,10,67,6
+[ 35] Received message from  63: 1|80,10,26,86,29
+[ 87] Received message from  95: 1|51,81,19,31,27
+[ 95] Sent Broadcast: 1|51,81,19,31,27
+[ 44] Received message from  63: 1|80,10,26,86,29
+[ 12] Received message from  77: 1|81,19,31,27,95
+[ 45] Received message from   9: 1|80,10,67,6,73
+[  4] Received message from  12: 1|19,31,27,95,65
+[ 24] Received message from  18: 1|10,67,6,73,9
+[ 69] Received message from  65: 1|81,19,31,27,95
+[ 73] Received message from  83: 1|51,80,10,67,6
+[ 15] Received message from  87: 1|19,31,27,95,2
+[  9] Sent Broadcast: 1|80,10,67,6,73
+[ 35] Received message from  22: 1|10,26,86,29,63
+[ 30] Received message from  12: 1|19,31,27,95,65
+[ 87] Received message from  15: 1|81,19,31,27,95
+[ 15] Sent Broadcast: 1|81,19,31,27,95
+[ 65] Received message from  87: 1|19,31,27,95,2
+[ 83] Received message from  73: 1|51,80,10,67,6
+[ 77] Received message from  65: 1|81,19,31,27,95
+[ 73] Sent Broadcast: 1|51,80,10,67,6
+[ 22] Received message from  91: 1|80,10,26,86,29
+[ 44] Received message from  22: 1|10,26,86,29,63
+[ 60] Received message from  63: 1|80,10,26,86,29
+[ 37] Received message from  18: 1|10,67,6,73,9
+[ 15] Received message from  69: 1|19,31,27,95,2
+[ 76] Received message from  83: 1|51,80,10,67,6
+[  8] Received message from  24: 1|10,67,6,73,9
+[ 83] Sent Broadcast: 1|51,80,10,67,6
+[ 69] Received message from  87: 1|19,31,27,95,2
+[  8] Received message from  35: 1|10,26,86,29,63
+[ 87] Sent Broadcast: 1|19,31,27,95,2
+[ 64] Received message from  63: 1|80,10,26,86,29
+[ 24] Received message from   8: 1|67,6,73,9,18
+[ 18] Received message from  45: 1|10,67,6,73,9
+[ 60] Received message from  22: 1|10,26,86,29,63
+[ 45] Sent Broadcast: 1|10,67,6,73,9
+[ 35] Received message from  91: 1|80,10,26,86,29
+[ 68] Received message from  12: 1|19,31,27,95,65
+[  4] Received message from  30: 1|31,27,95,65,12
+[ 39] Received message from  18: 1|10,67,6,73,9
+[  8] Received message from  44: 1|10,26,86,29,63
+[ 15] Received message from  77: 1|81,19,31,27,95
+[ 87] Received message from  65: 1|81,19,31,27,95
+[ 30] Received message from   4: 1|31,27,95,65,12
+[ 30] Received message from  69: 1|19,31,27,95,2
+[ 65] Sent Broadcast: 1|81,19,31,27,95
+[ 85] Received message from  63: 1|80,10,26,86,29
+[ 18] Received message from  24: 1|10,67,6,73,9
+[  8] Received message from  37: 1|67,6,73,9,18
+[ 22] Received message from  35: 1|10,26,86,29,63
+[ 45] Received message from  18: 1|10,67,6,73,9
+[ 35] Received message from   8: 1|67,6,73,9,18
+[ 69] Received message from  12: 1|19,31,27,95,65
+[ 30] Received message from  77: 1|81,19,31,27,95
+[ 68] Received message from  30: 1|31,27,95,65,12
+[ 89] Received message from  22: 1|10,26,86,29,63
+[ 22] Received message from  44: 1|10,26,86,29,63
+[ 63] Received message from  91: 1|80,10,26,86,29
+[ 68] Received message from   4: 1|31,27,95,65,12
+[  8] Received message from  60: 1|26,86,29,63,22
+[ 65] Received message from  69: 1|19,31,27,95,2
+[  4] Received message from  68: 1|31,27,95,65,12
+[ 90] Received message from  63: 1|80,10,26,86,29
+[ 42] Received message from  85: 1|10,26,86,29,63
+[ 85] Received message from  64: 1|10,26,86,29,63
+[ 39] Received message from  24: 1|10,67,6,73,9
+[ 64] Received message from  91: 1|80,10,26,86,29
+[ 77] Received message from  12: 1|19,31,27,95,65
+[ 24] Sent Broadcast: 1|10,67,6,73,9
+[ 65] Received message from  77: 1|81,19,31,27,95
+[ 12] Sent Broadcast: 1|19,31,27,95,65
+[ 44] Received message from  35: 1|10,26,86,29,63
+[ 35] Received message from  44: 1|10,26,86,29,63
+[ 30] Received message from  68: 1|31,27,95,65,12
+[ 39] Received message from  37: 1|67,6,73,9,18
+[ 91] Received message from  22: 1|10,26,86,29,63
+[  8] Received message from  39: 1|67,6,73,9,18
+[ 68] Received message from  69: 1|19,31,27,95,2
+[ 22] Sent Broadcast: 1|10,26,86,29,63
+[ 37] Received message from   8: 1|67,6,73,9,18
+[ 69] Received message from  30: 1|31,27,95,65,12
+[ 92] Received message from   4: 1|31,27,95,65,12
+[ 97] Received message from  18: 1|10,67,6,73,9
+[  4] Sent Broadcast: 1|31,27,95,65,12
+[ 18] Sent Broadcast: 1|10,67,6,73,9
+[ 91] Received message from  63: 1|80,10,26,86,29
+[ 48] Received message from  85: 1|10,26,86,29,63
+[ 63] Sent Broadcast: 1|80,10,26,86,29
+[ 35] Received message from  60: 1|26,86,29,63,22
+[ 60] Received message from  35: 1|10,26,86,29,63
+[ 47] Received message from  44: 1|10,26,86,29,63
+[ 90] Received message from  64: 1|10,26,86,29,63
+[ 42] Received message from  90: 1|10,26,86,29,63
+[ 30] Received message from  92: 1|27,95,65,12,4
+[ 24] Received message from  39: 1|67,6,73,9,18
+[  8] Received message from  89: 1|26,86,29,63,22
+[ 90] Received message from  91: 1|80,10,26,86,29
+[ 39] Received message from   8: 1|67,6,73,9,18
+[ 11] Received message from  42: 1|26,86,29,63,85
+[ 97] Received message from  37: 1|67,6,73,9,18
+[ 77] Received message from  69: 1|19,31,27,95,2
+[ 37] Sent Broadcast: 1|67,6,73,9,18
+[ 91] Sent Broadcast: 1|80,10,26,86,29
+[ 69] Received message from  68: 1|31,27,95,65,12
+[ 77] Received message from  30: 1|31,27,95,65,12
+[ 44] Received message from  60: 1|26,86,29,63,22
+[ 68] Received message from  77: 1|81,19,31,27,95
+[ 91] Received message from  64: 1|10,26,86,29,63
+[ 64] Sent Broadcast: 1|10,26,86,29,63
+[ 64] Received message from  85: 1|10,26,86,29,63
+[ 35] Received message from  89: 1|26,86,29,63,22
+[ 64] Received message from  90: 1|10,26,86,29,63
+[  8] Received message from  97: 1|6,73,9,18,37
+[ 59] Received message from  44: 1|10,26,86,29,63
+[ 47] Received message from  60: 1|26,86,29,63,22
+[ 55] Received message from  92: 1|27,95,65,12,4
+[ 37] Received message from  39: 1|67,6,73,9,18
+[ 77] Received message from  68: 1|31,27,95,65,12
+[ 69] Received message from  77: 1|81,19,31,27,95
+[ 44] Received message from   8: 1|67,6,73,9,18
+[ 77] Sent Broadcast: 1|81,19,31,27,95
+[ 48] Received message from  42: 1|26,86,29,63,85
+[ 89] Received message from  35: 1|10,26,86,29,63
+[ 87] Received message from  69: 1|19,31,27,95,2
+[ 39] Received message from  89: 1|26,86,29,63,22
+[ 92] Received message from  30: 1|31,27,95,65,12
+[ 69] Sent Broadcast: 1|19,31,27,95,2
+[ 11] Received message from  48: 1|26,86,29,63,85
+[ 30] Sent Broadcast: 1|31,27,95,65,12
+[  3] Received message from  11: 1|86,29,63,85,42
+[ 85] Received message from  90: 1|10,26,86,29,63
+[ 68] Received message from  92: 1|27,95,65,12,4
+[ 92] Sent Broadcast: 1|27,95,65,12,4
+[  8] Received message from  47: 1|26,86,29,63,44
+[ 47] Received message from  39: 1|67,6,73,9,18
+[ 90] Received message from  85: 1|10,26,86,29,63
+[ 85] Sent Broadcast: 1|10,26,86,29,63
+[ 60] Received message from  44: 1|10,26,86,29,63
+[ 35] Received message from  97: 1|6,73,9,18,37
+[ 89] Received message from  60: 1|26,86,29,63,22
+[ 11] Received message from  55: 1|95,65,12,4,92
+[ 42] Received message from  48: 1|26,86,29,63,85
+[ 14] Received message from  11: 1|86,29,63,85,42
+[ 91] Received message from  35: 1|10,26,86,29,63
+[ 47] Received message from   8: 1|67,6,73,9,18
+[ 97] Received message from  60: 1|26,86,29,63,22
+[ 44] Received message from  89: 1|26,86,29,63,22
+[ 55] Received message from  42: 1|26,86,29,63,85
+[ 60] Sent Broadcast: 1|26,86,29,63,22
+[ 39] Received message from  47: 1|26,86,29,63,44
+[ 89] Received message from  39: 1|67,6,73,9,18
+[ 92] Received message from  68: 1|31,27,95,65,12
+[ 68] Sent Broadcast: 1|31,27,95,65,12
+[ 14] Received message from   3: 1|29,63,85,42,11
+[ 48] Received message from  11: 1|86,29,63,85,42
+[ 42] Received message from  55: 1|95,65,12,4,92
+[ 39] Received message from  97: 1|6,73,9,18,37
+[ 47] Received message from  59: 1|26,86,29,63,44
+[ 97] Received message from  35: 1|10,26,86,29,63
+[ 89] Received message from  44: 1|10,26,86,29,63
+[ 35] Sent Broadcast: 1|10,26,86,29,63
+[ 91] Received message from  90: 1|10,26,86,29,63
+[ 58] Received message from  42: 1|26,86,29,63,85
+[ 90] Sent Broadcast: 1|10,26,86,29,63
+[ 59] Received message from  47: 1|26,86,29,63,44
+[ 47] Received message from  89: 1|26,86,29,63,22
+[ 55] Received message from  48: 1|26,86,29,63,85
+[ 60] Received message from   8: 1|67,6,73,9,18
+[  3] Received message from  14: 1|29,63,85,42,11
+[ 44] Received message from  97: 1|6,73,9,18,37
+[ 97] Received message from  39: 1|67,6,73,9,18
+[ 48] Received message from  55: 1|95,65,12,4,92
+[ 71] Received message from   3: 1|29,63,85,42,11
+[ 70] Received message from  59: 1|26,86,29,63,44
+[ 39] Sent Broadcast: 1|67,6,73,9,18
+[ 55] Received message from  11: 1|86,29,63,85,42
+[ 59] Sent Broadcast: 1|26,86,29,63,44
+[ 97] Received message from  44: 1|10,26,86,29,63
+[ 44] Sent Broadcast: 1|10,26,86,29,63
+[ 71] Received message from  14: 1|29,63,85,42,11
+[ 47] Received message from  97: 1|6,73,9,18,37
+[ 75] Received message from   3: 1|29,63,85,42,11
+[ 58] Received message from  55: 1|95,65,12,4,92
+[ 60] Received message from  89: 1|26,86,29,63,22
+[ 70] Received message from   8: 1|67,6,73,9,18
+[  3] Sent Broadcast: 1|29,63,85,42,11
+[ 90] Received message from  42: 1|26,86,29,63,85
+[ 55] Sent Broadcast: 1|95,65,12,4,92
+[ 11] Received message from  58: 1|86,29,63,85,42
+[ 42] Sent Broadcast: 1|26,86,29,63,85
+[  8] Received message from  70: 1|86,29,63,44,59
+[ 14] Received message from  71: 1|63,85,42,11,3
+[ 89] Received message from   8: 1|67,6,73,9,18
+[ 60] Received message from  47: 1|26,86,29,63,44
+[ 58] Received message from  48: 1|26,86,29,63,85
+[ 75] Received message from  14: 1|29,63,85,42,11
+[ 48] Sent Broadcast: 1|26,86,29,63,85
+[ 14] Sent Broadcast: 1|29,63,85,42,11
+[ 70] Received message from  89: 1|26,86,29,63,22
+[ 48] Received message from  58: 1|86,29,63,85,42
+[ 58] Received message from  11: 1|86,29,63,85,42
+[ 11] Sent Broadcast: 1|86,29,63,85,42
+[ 75] Received message from  71: 1|63,85,42,11,3
+[ 71] Sent Broadcast: 1|63,85,42,11,3
+[ 60] Received message from  97: 1|6,73,9,18,37
+[ 47] Received message from  70: 1|86,29,63,44,59
+[ 97] Received message from   8: 1|67,6,73,9,18
+[  8] Sent Broadcast: 1|67,6,73,9,18
+[ 70] Received message from  47: 1|26,86,29,63,44
+[ 14] Received message from  75: 1|63,85,42,11,3
+[ 55] Received message from  58: 1|86,29,63,85,42
+[ 58] Sent Broadcast: 1|86,29,63,85,42
+[ 70] Received message from  97: 1|6,73,9,18,37
+[ 71] Received message from  75: 1|63,85,42,11,3
+[ 75] Sent Broadcast: 1|63,85,42,11,3
+[ 89] Received message from  70: 1|86,29,63,44,59
+[ 97] Received message from  89: 1|26,86,29,63,22
+[ 89] Sent Broadcast: 1|26,86,29,63,22
+[ 89] Received message from  47: 1|26,86,29,63,44
+[ 89] Received message from  97: 1|6,73,9,18,37
+[ 97] Received message from  70: 1|86,29,63,44,59
+[ 97] Sent Broadcast: 1|6,73,9,18,37
+[ 70] Sent Broadcast: 1|86,29,63,44,59
+[ 97] Received message from  47: 1|26,86,29,63,44
+[ 47] Sent Broadcast: 1|26,86,29,63,44
+[ 41] Received message from  33: 33|0
+[ 88] Received message from  33: 33|0
+[ 33] Sent Broadcast: 33|0
+[ 88] Received message from  41: 33|0,33
+[ 41] Sent Broadcast: 33|0,33
+[ 41] Received message from  88: 33|0,33
+[ 88] Sent Broadcast: 33|0,33

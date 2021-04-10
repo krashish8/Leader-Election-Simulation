@@ -1,0 +1,184 @@
+[ 20] Received message from   1: 1
+[ 35] Received message from   1: 1
+[  2] Received message from  20: 1
+[ 43] Received message from   1: 1
+[  2] Received message from  35: 1
+[ 19] Received message from  20: 1
+[ 44] Received message from   1: 1
+[  1] Sent Broadcast: 1|0
+[ 20] Received message from  35: 1
+[ 27] Received message from   2: 1
+[ 35] Received message from  43: 1
+[ 43] Received message from  35: 1
+[ 10] Received message from  27: 1
+[  2] Received message from  44: 1
+[ 35] Received message from  20: 1
+[ 44] Received message from  43: 1
+[  7] Received message from  19: 1
+[ 43] Sent Broadcast: 1|1
+[ 44] Received message from  35: 1
+[ 35] Sent Broadcast: 1|1
+[ 35] Received message from   2: 1
+[ 33] Received message from  27: 1
+[ 34] Received message from  19: 1
+[ 20] Received message from  44: 1
+[ 44] Received message from  20: 1
+[ 40] Received message from  27: 1
+[ 33] Received message from  10: 1
+[  6] Received message from   7: 1
+[ 45] Received message from  19: 1
+[ 35] Received message from  44: 1
+[ 44] Received message from   2: 1
+[ 10] Received message from  33: 1
+[  6] Received message from  34: 1
+[ 45] Received message from  20: 1
+[ 20] Sent Broadcast: 1|1
+[ 43] Received message from  44: 1
+[ 50] Received message from  19: 1
+[ 44] Sent Broadcast: 1|1
+[ 19] Sent Broadcast: 1|20
+[ 48] Received message from  10: 1
+[ 10] Sent Broadcast: 1|27
+[ 45] Received message from  27: 1
+[ 37] Received message from  40: 1
+[ 23] Received message from   7: 1
+[ 27] Sent Broadcast: 1|2
+[  2] Received message from  45: 1
+[ 48] Received message from  33: 1
+[ 33] Sent Broadcast: 1|27
+[  7] Received message from  34: 1
+[ 40] Sent Broadcast: 1|27
+[ 23] Received message from   6: 1
+[ 45] Received message from   2: 1
+[ 22] Received message from  48: 1
+[  2] Sent Broadcast: 1|20
+[  7] Received message from  50: 1
+[ 20] Received message from  45: 1
+[ 34] Received message from   7: 1
+[ 25] Received message from   6: 1
+[  6] Received message from  23: 1
+[  9] Received message from  34: 1
+[ 34] Received message from  50: 1
+[ 50] Sent Broadcast: 1|19
+[ 27] Received message from  45: 1
+[ 50] Received message from   7: 1
+[ 33] Received message from  48: 1
+[  7] Sent Broadcast: 1|19
+[ 48] Sent Broadcast: 1|10
+[  8] Received message from  23: 1
+[ 23] Received message from  25: 1
+[ 34] Received message from   6: 1
+[ 15] Received message from   9: 1
+[ 34] Received message from  45: 1
+[  9] Sent Broadcast: 1|34
+[ 45] Sent Broadcast: 1|19
+[ 38] Received message from  25: 1
+[ 25] Received message from  23: 1
+[  3] Received message from   8: 1
+[ 25] Sent Broadcast: 1|6
+[ 23] Received message from  34: 1
+[ 38] Received message from   6: 1
+[  6] Sent Broadcast: 1|7
+[ 45] Received message from  34: 1
+[ 34] Received message from  23: 1
+[ 17] Received message from   8: 1
+[ 17] Received message from   3: 1
+[  3] Sent Broadcast: 1|8
+[ 16] Received message from  15: 1
+[  6] Received message from  38: 1
+[ 15] Sent Broadcast: 1|9
+[ 50] Received message from  34: 1
+[ 34] Sent Broadcast: 1|19
+[ 38] Received message from  23: 1
+[ 23] Sent Broadcast: 1|7
+[  8] Received message from  38: 1
+[ 38] Received message from   8: 1
+[  8] Sent Broadcast: 1|23
+[  3] Received message from  17: 1
+[  4] Received message from  16: 1
+[ 17] Received message from  38: 1
+[ 38] Received message from  17: 1
+[ 17] Sent Broadcast: 1|8
+[ 31] Received message from   4: 1
+[ 49] Received message from  16: 1
+[ 16] Sent Broadcast: 1|15
+[ 23] Received message from  38: 1
+[ 38] Sent Broadcast: 1|25
+[  5] Received message from  31: 1
+[  4] Received message from  49: 1
+[ 49] Received message from   4: 1
+[  4] Sent Broadcast: 1|16
+[ 31] Received message from  49: 1
+[ 49] Sent Broadcast: 1|16
+[ 13] Received message from  31: 1
+[ 30] Received message from  31: 1
+[ 21] Received message from  13: 1
+[ 49] Received message from  31: 1
+[ 31] Sent Broadcast: 1|4
+[ 30] Received message from  13: 1
+[ 13] Sent Broadcast: 1|31
+[ 30] Received message from  21: 1
+[ 21] Sent Broadcast: 1|13
+[ 13] Received message from  30: 1
+[ 21] Received message from  30: 1
+[ 46] Received message from  30: 1
+[ 30] Sent Broadcast: 1|31
+[ 11] Received message from  46: 1
+[ 28] Received message from  46: 1
+[ 14] Received message from  11: 1
+[ 36] Received message from  46: 1
+[ 11] Received message from  28: 1
+[ 18] Received message from  14: 1
+[ 39] Received message from  46: 1
+[ 28] Received message from  11: 1
+[ 28] Received message from  36: 1
+[ 39] Received message from  14: 1
+[ 47] Received message from  46: 1
+[ 36] Received message from  28: 1
+[ 14] Sent Broadcast: 1|11
+[ 46] Sent Broadcast: 1|30
+[ 39] Received message from  11: 1
+[ 11] Received message from  39: 1
+[ 11] Sent Broadcast: 1|46
+[ 28] Received message from  47: 1
+[ 14] Received message from  39: 1
+[ 39] Received message from  36: 1
+[ 36] Received message from  47: 1
+[ 28] Received message from  39: 1
+[ 39] Received message from  28: 1
+[ 47] Received message from  36: 1
+[ 36] Sent Broadcast: 1|46
+[ 39] Received message from  47: 1
+[ 47] Sent Broadcast: 1|46
+[ 36] Received message from  39: 1
+[ 47] Received message from  28: 1
+[ 28] Sent Broadcast: 1|46
+[ 47] Received message from  39: 1
+[ 39] Sent Broadcast: 1|46
+[ 24] Received message from  12: 12
+[ 26] Received message from  12: 12
+[ 26] Received message from  24: 12
+[ 29] Received message from  12: 12
+[ 29] Received message from  24: 12
+[ 24] Received message from  26: 12
+[ 32] Received message from  12: 12
+[ 41] Received message from  24: 12
+[ 24] Sent Broadcast: 12|12
+[ 24] Received message from  29: 12
+[ 41] Received message from  26: 12
+[ 26] Sent Broadcast: 12|12
+[ 12] Received message from  41: 12
+[ 29] Received message from  32: 12
+[ 41] Received message from  12: 12
+[ 32] Received message from  29: 12
+[ 26] Received message from  41: 12
+[ 41] Sent Broadcast: 12|24
+[ 42] Received message from  12: 12
+[ 12] Sent Broadcast: 12|0
+[ 42] Received message from  32: 12
+[ 32] Sent Broadcast: 12|12
+[ 29] Received message from  42: 12
+[ 42] Received message from  29: 12
+[ 29] Sent Broadcast: 12|12
+[ 32] Received message from  42: 12
+[ 42] Sent Broadcast: 12|12

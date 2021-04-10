@@ -1,0 +1,843 @@
+[ 42] Received message from   1: 1
+[ 68] Received message from   1: 1
+[ 68] Received message from  42: 1
+[ 78] Received message from   1: 1
+[ 42] Received message from  68: 1
+[ 78] Received message from  42: 1
+[ 89] Received message from   1: 1
+[ 78] Received message from  68: 1
+[  1] Sent Broadcast: 1|0
+[ 41] Received message from  78: 1
+[ 89] Received message from  42: 1
+[ 89] Received message from  68: 1
+[ 68] Sent Broadcast: 1|1
+[105] Received message from  42: 1
+[ 42] Sent Broadcast: 1|1
+[ 42] Received message from  78: 1
+[104] Received message from  41: 1
+[ 42] Received message from  89: 1
+[ 38] Received message from 105: 1
+[ 61] Received message from  89: 1
+[ 68] Received message from  78: 1
+[ 39] Received message from 104: 1
+[105] Received message from  41: 1
+[ 68] Received message from  89: 1
+[ 41] Received message from 105: 1
+[ 21] Received message from  38: 1
+[ 76] Received message from  61: 1
+[ 92] Received message from  39: 1
+[105] Received message from  78: 1
+[107] Received message from  41: 1
+[ 41] Sent Broadcast: 1|78
+[ 51] Received message from 105: 1
+[ 92] Received message from 104: 1
+[ 96] Received message from  61: 1
+[107] Received message from  78: 1
+[ 51] Received message from  38: 1
+[ 78] Sent Broadcast: 1|1
+[139] Received message from  39: 1
+[ 39] Sent Broadcast: 1|104
+[105] Received message from  89: 1
+[ 34] Received message from  21: 1
+[ 48] Received message from  76: 1
+[107] Received message from 104: 1
+[ 65] Received message from  38: 1
+[ 78] Received message from 107: 1
+[ 78] Received message from 105: 1
+[ 32] Received message from  96: 1
+[ 21] Received message from  92: 1
+[138] Received message from  89: 1
+[139] Received message from 104: 1
+[ 51] Received message from  21: 1
+[119] Received message from  61: 1
+[ 89] Sent Broadcast: 1|1
+[104] Sent Broadcast: 1|41
+[ 66] Received message from  38: 1
+[ 75] Received message from  76: 1
+[ 40] Received message from  65: 1
+[104] Received message from 139: 1
+[ 89] Received message from 105: 1
+[104] Received message from  92: 1
+[139] Sent Broadcast: 1|39
+[ 92] Sent Broadcast: 1|39
+[ 21] Received message from  51: 1
+[ 45] Received message from  48: 1
+[ 32] Received message from 119: 1
+[ 45] Received message from  96: 1
+[133] Received message from  38: 1
+[126] Received message from  61: 1
+[ 38] Received message from  51: 1
+[ 95] Received message from  34: 1
+[ 66] Received message from  65: 1
+[ 48] Received message from 138: 1
+[104] Received message from 107: 1
+[ 96] Received message from  76: 1
+[ 53] Received message from  48: 1
+[ 92] Received message from  21: 1
+[ 38] Sent Broadcast: 1|105
+[107] Sent Broadcast: 1|41
+[ 13] Received message from  40: 1
+[ 34] Sent Broadcast: 1|21
+[133] Received message from 105: 1
+[ 40] Received message from  66: 1
+[ 21] Sent Broadcast: 1|38
+[119] Received message from  32: 1
+[105] Sent Broadcast: 1|42
+[ 40] Received message from  75: 1
+[ 75] Received message from  65: 1
+[ 32] Received message from 126: 1
+[116] Received message from  76: 1
+[ 11] Received message from  53: 1
+[ 51] Received message from 133: 1
+[133] Received message from  51: 1
+[ 53] Received message from  45: 1
+[ 51] Sent Broadcast: 1|105
+[ 61] Received message from 138: 1
+[137] Received message from  61: 1
+[ 49] Received message from 119: 1
+[ 48] Received message from  96: 1
+[ 66] Received message from  40: 1
+[ 65] Received message from  66: 1
+[126] Received message from  32: 1
+[ 48] Received message from  75: 1
+[ 63] Received message from  45: 1
+[ 75] Received message from  48: 1
+[125] Received message from  76: 1
+[ 75] Received message from  40: 1
+[ 25] Received message from  13: 1
+[133] Received message from  65: 1
+[138] Received message from  61: 1
+[126] Received message from 119: 1
+[144] Received message from  32: 1
+[ 17] Received message from  95: 1
+[ 61] Sent Broadcast: 1|89
+[ 48] Received message from 137: 1
+[119] Sent Broadcast: 1|61
+[ 65] Received message from 133: 1
+[ 96] Received message from 126: 1
+[ 53] Received message from  75: 1
+[ 69] Received message from  66: 1
+[ 76] Received message from  96: 1
+[137] Received message from  76: 1
+[ 44] Received message from  49: 1
+[ 25] Received message from  53: 1
+[ 45] Received message from 116: 1
+[ 32] Sent Broadcast: 1|96
+[ 96] Received message from  48: 1
+[ 65] Received message from 138: 1
+[138] Received message from  65: 1
+[105] Received message from 133: 1
+[133] Sent Broadcast: 1|38
+[123] Received message from  40: 1
+[ 67] Received message from  13: 1
+[ 23] Received message from  95: 1
+[  9] Received message from  63: 1
+[ 14] Received message from  17: 1
+[ 25] Received message from  11: 1
+[ 96] Received message from  45: 1
+[ 75] Received message from 137: 1
+[126] Received message from  96: 1
+[ 48] Received message from 116: 1
+[ 46] Received message from 144: 1
+[ 45] Received message from  53: 1
+[ 65] Received message from  75: 1
+[125] Received message from  40: 1
+[119] Received message from 126: 1
+[150] Received message from  65: 1
+[ 65] Sent Broadcast: 1|38
+[ 97] Received message from  48: 1
+[ 11] Received message from  25: 1
+[138] Received message from  76: 1
+[ 25] Received message from 125: 1
+[ 75] Received message from 138: 1
+[ 76] Sent Broadcast: 1|61
+[ 46] Received message from  49: 1
+[ 97] Received message from  75: 1
+[ 53] Received message from 116: 1
+[ 47] Received message from  95: 1
+[ 76] Received message from 137: 1
+[ 99] Received message from  66: 1
+[ 52] Received message from  11: 1
+[ 49] Received message from 144: 1
+[  7] Received message from  14: 1
+[  5] Received message from  69: 1
+[137] Received message from  96: 1
+[ 66] Received message from 123: 1
+[116] Received message from  45: 1
+[ 23] Received message from  17: 1
+[ 12] Received message from  23: 1
+[ 10] Received message from   9: 1
+[121] Received message from 126: 1
+[ 53] Received message from  25: 1
+[ 96] Sent Broadcast: 1|61
+[  2] Received message from  67: 1
+[126] Sent Broadcast: 1|61
+[ 46] Received message from  44: 1
+[ 45] Sent Broadcast: 1|48
+[ 44] Received message from  46: 1
+[150] Received message from  13: 1
+[ 47] Received message from  17: 1
+[116] Received message from  48: 1
+[ 97] Received message from  25: 1
+[ 13] Sent Broadcast: 1|40
+[ 88] Received message from  11: 1
+[ 13] Received message from 150: 1
+[ 98] Received message from 144: 1
+[ 40] Received message from 125: 1
+[ 17] Received message from  47: 1
+[136] Received message from   9: 1
+[ 12] Received message from  14: 1
+[ 63] Received message from  10: 1
+[ 76] Received message from 138: 1
+[ 72] Received message from  49: 1
+[ 11] Received message from  97: 1
+[ 10] Received message from  63: 1
+[150] Received message from  40: 1
+[  2] Received message from   5: 1
+[ 52] Received message from  53: 1
+[ 14] Received message from  23: 1
+[ 69] Received message from 123: 1
+[  5] Received message from  99: 1
+[  9] Sent Broadcast: 1|63
+[ 18] Received message from  52: 1
+[ 40] Sent Broadcast: 1|65
+[ 75] Received message from 116: 1
+[  5] Received message from   2: 1
+[ 29] Received message from  67: 1
+[ 63] Sent Broadcast: 1|45
+[ 49] Received message from  46: 1
+[ 62] Received message from   7: 1
+[ 44] Received message from  98: 1
+[ 99] Received message from  69: 1
+[ 80] Received message from  95: 1
+[ 72] Received message from  44: 1
+[ 99] Received message from 123: 1
+[ 20] Received message from  14: 1
+[ 14] Received message from  12: 1
+[ 96] Received message from 137: 1
+[123] Received message from  66: 1
+[ 18] Received message from  88: 1
+[123] Sent Broadcast: 1|40
+[ 75] Received message from  53: 1
+[116] Received message from  75: 1
+[  7] Sent Broadcast: 1|14
+[ 97] Received message from  11: 1
+[ 46] Received message from  98: 1
+[103] Received message from  25: 1
+[140] Received message from 144: 1
+[ 50] Received message from  67: 1
+[ 10] Received message from 136: 1
+[ 97] Received message from 116: 1
+[ 69] Received message from  99: 1
+[125] Received message from  48: 1
+[136] Received message from  10: 1
+[ 48] Received message from 125: 1
+[ 16] Received message from 121: 1
+[ 15] Received message from   2: 1
+[ 14] Received message from  62: 1
+[144] Sent Broadcast: 1|32
+[116] Received message from 138: 1
+[ 10] Sent Broadcast: 1|9
+[ 80] Received message from  17: 1
+[ 98] Received message from  49: 1
+[ 36] Received message from  52: 1
+[ 62] Sent Broadcast: 1|7
+[ 72] Received message from  46: 1
+[116] Received message from 137: 1
+[ 15] Received message from   5: 1
+[ 44] Received message from  72: 1
+[ 23] Received message from  47: 1
+[ 25] Received message from  97: 1
+[ 40] Received message from 150: 1
+[123] Received message from  69: 1
+[124] Received message from  95: 1
+[ 17] Received message from  23: 1
+[ 26] Received message from   2: 1
+[  2] Received message from  29: 1
+[ 98] Received message from  44: 1
+[150] Received message from  66: 1
+[125] Received message from  75: 1
+[ 23] Received message from  14: 1
+[137] Received message from  48: 1
+[146] Received message from  17: 1
+[ 53] Received message from 125: 1
+[ 97] Received message from  53: 1
+[106] Received message from  16: 1
+[ 36] Received message from  18: 1
+[128] Received message from  49: 1
+[  6] Received message from  36: 1
+[ 19] Received message from 136: 1
+[ 20] Received message from  12: 1
+[ 66] Received message from 150: 1
+[146] Received message from  95: 1
+[ 17] Received message from  80: 1
+[ 17] Sent Broadcast: 1|95
+[ 52] Received message from  88: 1
+[124] Received message from  69: 1
+[ 16] Sent Broadcast: 1|121
+[ 66] Sent Broadcast: 1|38
+[  2] Received message from  50: 1
+[136] Sent Broadcast: 1|9
+[ 11] Received message from 103: 1
+[ 58] Received message from  67: 1
+[ 69] Sent Broadcast: 1|66
+[125] Received message from  25: 1
+[ 25] Sent Broadcast: 1|13
+[ 98] Received message from  46: 1
+[ 29] Received message from   5: 1
+[123] Received message from  99: 1
+[ 49] Received message from  98: 1
+[ 53] Received message from  52: 1
+[ 52] Received message from  97: 1
+[ 15] Received message from  26: 1
+[131] Received message from  49: 1
+[ 12] Received message from 146: 1
+[ 75] Received message from 150: 1
+[ 62] Received message from  14: 1
+[103] Received message from  11: 1
+[ 18] Received message from  36: 1
+[ 80] Received message from  47: 1
+[ 46] Received message from  72: 1
+[ 60] Received message from  88: 1
+[ 54] Received message from  18: 1
+[ 20] Received message from  23: 1
+[ 74] Received message from  67: 1
+[106] Received message from 121: 1
+[  5] Received message from  15: 1
+[ 99] Received message from   5: 1
+[128] Received message from  46: 1
+[ 95] Sent Broadcast: 1|34
+[ 75] Received message from 125: 1
+[137] Received message from  75: 1
+[ 33] Received message from  12: 1
+[ 23] Received message from  80: 1
+[ 26] Received message from  50: 1
+[ 12] Received message from  20: 1
+[ 56] Received message from   6: 1
+[ 36] Received message from  19: 1
+[ 44] Received message from 106: 1
+[ 52] Received message from 103: 1
+[ 29] Received message from   2: 1
+[125] Received message from 116: 1
+[ 88] Received message from  52: 1
+[103] Received message from  53: 1
+[125] Received message from 138: 1
+[  5] Received message from  29: 1
+[116] Received message from 150: 1
+[124] Received message from  99: 1
+[ 19] Received message from  36: 1
+[124] Received message from   5: 1
+[138] Received message from  48: 1
+[ 60] Received message from  18: 1
+[ 72] Received message from  98: 1
+[ 47] Received message from  23: 1
+[ 26] Received message from  15: 1
+[145] Received message from  47: 1
+[146] Received message from  14: 1
+[109] Received message from  11: 1
+[131] Received message from 121: 1
+[ 29] Received message from  26: 1
+[ 20] Received message from  33: 1
+[ 53] Received message from  97: 1
+[  3] Received message from  58: 1
+[ 14] Received message from 146: 1
+[ 99] Sent Broadcast: 1|66
+[  5] Sent Broadcast: 1|69
+[ 48] Sent Broadcast: 1|76
+[125] Received message from 137: 1
+[ 84] Received message from  67: 1
+[ 46] Received message from 140: 1
+[103] Received message from  88: 1
+[ 53] Received message from 103: 1
+[  5] Received message from 124: 1
+[140] Received message from  49: 1
+[  2] Received message from  74: 1
+[  4] Received message from  56: 1
+[ 98] Received message from  72: 1
+[ 44] Received message from 128: 1
+[106] Received message from  44: 1
+[ 97] Received message from 125: 1
+[ 74] Received message from  58: 1
+[ 97] Received message from  52: 1
+[ 15] Received message from  29: 1
+[ 44] Received message from 131: 1
+[ 29] Received message from  50: 1
+[ 18] Received message from  60: 1
+[ 50] Received message from   2: 1
+[ 11] Sent Broadcast: 1|53
+[ 14] Sent Broadcast: 1|17
+[ 47] Received message from  80: 1
+[145] Received message from  33: 1
+[125] Received message from 150: 1
+[137] Received message from 116: 1
+[148] Received message from 121: 1
+[ 23] Received message from  20: 1
+[128] Received message from  98: 1
+[121] Received message from 106: 1
+[129] Received message from  56: 1
+[146] Received message from  12: 1
+[ 75] Received message from  97: 1
+[138] Received message from  75: 1
+[ 70] Received message from   3: 1
+[ 60] Received message from  54: 1
+[  3] Received message from  74: 1
+[103] Received message from  52: 1
+[ 18] Received message from 109: 1
+[ 90] Received message from   6: 1
+[ 46] Received message from 128: 1
+[128] Received message from  72: 1
+[ 84] Received message from  58: 1
+[ 88] Received message from  18: 1
+[ 15] Received message from 124: 1
+[ 30] Received message from 145: 1
+[ 29] Received message from  15: 1
+[109] Received message from  88: 1
+[ 33] Sent Broadcast: 1|12
+[146] Received message from  47: 1
+[144] Received message from  49: 1
+[131] Received message from  46: 1
+[121] Sent Broadcast: 1|126
+[ 37] Received message from  26: 1
+[ 49] Received message from 140: 1
+[ 12] Sent Broadcast: 1|23
+[116] Received message from  53: 1
+[ 20] Received message from 146: 1
+[137] Received message from 138: 1
+[  2] Received message from  84: 1
+[138] Received message from 137: 1
+[125] Received message from  53: 1
+[ 31] Received message from  70: 1
+[ 24] Received message from   4: 1
+[  6] Received message from 129: 1
+[129] Received message from   6: 1
+[131] Received message from 106: 1
+[ 33] Received message from  20: 1
+[ 74] Received message from   2: 1
+[ 28] Received message from  60: 1
+[ 90] Received message from  19: 1
+[138] Received message from 150: 1
+[146] Received message from  80: 1
+[128] Received message from  44: 1
+[ 26] Received message from  29: 1
+[ 94] Received message from  67: 1
+[ 88] Sent Broadcast: 1|11
+[ 53] Sent Broadcast: 1|48
+[ 88] Received message from 103: 1
+[ 98] Received message from 140: 1
+[103] Received message from  97: 1
+[ 46] Received message from 131: 1
+[ 72] Received message from 128: 1
+[ 23] Received message from 146: 1
+[ 67] Sent Broadcast: 1|13
+[ 64] Received message from  54: 1
+[137] Sent Broadcast: 1|61
+[ 74] Received message from  50: 1
+[ 50] Received message from  26: 1
+[147] Received message from  56: 1
+[ 80] Received message from  23: 1
+[140] Sent Broadcast: 1|144
+[150] Sent Broadcast: 1|65
+[ 47] Sent Broadcast: 1|95
+[ 26] Received message from  74: 1
+[148] Received message from  49: 1
+[140] Received message from  46: 1
+[ 80] Sent Broadcast: 1|95
+[ 49] Sent Broadcast: 1|119
+[131] Received message from  98: 1
+[116] Received message from 125: 1
+[ 52] Received message from 109: 1
+[ 56] Sent Broadcast: 1|6
+[ 33] Received message from 145: 1
+[ 97] Received message from 103: 1
+[ 84] Received message from   2: 1
+[ 69] Received message from 124: 1
+[ 44] Received message from 148: 1
+[ 74] Received message from   3: 1
+[ 22] Received message from  30: 1
+[ 72] Received message from 131: 1
+[ 15] Received message from  37: 1
+[109] Received message from  52: 1
+[ 18] Received message from  90: 1
+[ 98] Received message from 128: 1
+[150] Received message from  75: 1
+[145] Sent Broadcast: 1|47
+[  8] Received message from  24: 1
+[130] Received message from  19: 1
+[116] Received message from  97: 1
+[ 37] Received message from  15: 1
+[ 84] Received message from  50: 1
+[ 90] Received message from  36: 1
+[138] Received message from 116: 1
+[148] Received message from  46: 1
+[131] Received message from  72: 1
+[137] Received message from 125: 1
+[140] Received message from  98: 1
+[ 74] Received message from  26: 1
+[109] Received message from 103: 1
+[ 47] Received message from 146: 1
+[ 83] Received message from  28: 1
+[ 90] Received message from  18: 1
+[ 18] Received message from 129: 1
+[ 79] Received message from  70: 1
+[ 88] Received message from 109: 1
+[ 94] Received message from  58: 1
+[108] Received message from   4: 1
+[ 50] Received message from  29: 1
+[  4] Received message from 147: 1
+[141] Received message from 106: 1
+[ 54] Received message from  60: 1
+[ 82] Received message from  30: 1
+[  2] Sent Broadcast: 1|67
+[130] Received message from   6: 1
+[ 52] Sent Broadcast: 1|11
+[ 19] Sent Broadcast: 1|136
+[  3] Received message from  94: 1
+[ 55] Received message from  64: 1
+[ 46] Sent Broadcast: 1|144
+[ 29] Received message from  74: 1
+[150] Received message from 138: 1
+[ 75] Sent Broadcast: 1|76
+[ 79] Received message from  31: 1
+[111] Received message from  28: 1
+[  6] Sent Broadcast: 1|36
+[146] Received message from  20: 1
+[ 98] Received message from 131: 1
+[ 26] Received message from  84: 1
+[101] Received message from  54: 1
+[146] Received message from  23: 1
+[ 84] Received message from  26: 1
+[125] Received message from  97: 1
+[129] Received message from  36: 1
+[ 35] Received message from  24: 1
+[ 91] Received message from   3: 1
+[ 36] Received message from 129: 1
+[ 43] Received message from  37: 1
+[131] Received message from  44: 1
+[141] Received message from  72: 1
+[114] Received message from 128: 1
+[124] Received message from  15: 1
+[ 37] Sent Broadcast: 1|26
+[ 58] Sent Broadcast: 1|67
+[ 99] Received message from 124: 1
+[  6] Received message from 130: 1
+[ 82] Received message from  22: 1
+[138] Sent Broadcast: 1|89
+[ 30] Sent Broadcast: 1|145
+[ 23] Sent Broadcast: 1|95
+[ 20] Sent Broadcast: 1|14
+[148] Received message from  98: 1
+[103] Sent Broadcast: 1|25
+[ 94] Received message from  50: 1
+[ 97] Sent Broadcast: 1|48
+[ 22] Sent Broadcast: 1|30
+[ 98] Sent Broadcast: 1|144
+[ 85] Received message from   8: 1
+[  8] Received message from 108: 1
+[ 50] Sent Broadcast: 1|67
+[124] Sent Broadcast: 1|95
+[ 15] Sent Broadcast: 1|2
+[ 26] Sent Broadcast: 1|2
+[138] Received message from 125: 1
+[103] Received message from 109: 1
+[150] Received message from 116: 1
+[ 19] Received message from  90: 1
+[ 31] Received message from  79: 1
+[106] Received message from 131: 1
+[ 54] Received message from 129: 1
+[113] Received message from  70: 1
+[ 50] Received message from  74: 1
+[ 80] Received message from 146: 1
+[130] Received message from  36: 1
+[ 94] Received message from   3: 1
+[ 46] Received message from 148: 1
+[110] Received message from  64: 1
+[ 24] Received message from 147: 1
+[ 22] Received message from  82: 1
+[101] Received message from  18: 1
+[ 29] Received message from  84: 1
+[115] Received message from  54: 1
+[ 74] Received message from  29: 1
+[141] Received message from  44: 1
+[148] Received message from 106: 1
+[ 83] Received message from  60: 1
+[131] Received message from 128: 1
+[116] Sent Broadcast: 1|76
+[ 57] Received message from  43: 1
+[109] Sent Broadcast: 1|11
+[ 44] Received message from 141: 1
+[106] Sent Broadcast: 1|16
+[108] Received message from  24: 1
+[148] Received message from  72: 1
+[102] Received message from  31: 1
+[ 36] Sent Broadcast: 1|52
+[ 70] Sent Broadcast: 1|3
+[  3] Sent Broadcast: 1|58
+[ 82] Sent Broadcast: 1|30
+[ 50] Received message from  94: 1
+[ 36] Received message from  90: 1
+[ 72] Sent Broadcast: 1|49
+[ 60] Received message from  83: 1
+[147] Received message from   4: 1
+[ 18] Received message from 130: 1
+[110] Received message from  55: 1
+[108] Received message from  35: 1
+[  4] Sent Broadcast: 1|56
+[117] Received message from  28: 1
+[ 83] Received message from 111: 1
+[ 24] Received message from 108: 1
+[101] Received message from  60: 1
+[ 18] Received message from 101: 1
+[ 74] Received message from  91: 1
+[148] Received message from  44: 1
+[150] Received message from 125: 1
+[121] Received message from 131: 1
+[ 49] Received message from 148: 1
+[ 44] Sent Broadcast: 1|49
+[ 84] Received message from  29: 1
+[ 58] Received message from  74: 1
+[125] Sent Broadcast: 1|76
+[ 81] Received message from  79: 1
+[141] Received message from 128: 1
+[108] Received message from   8: 1
+[109] Received message from  18: 1
+[ 36] Received message from 130: 1
+[ 90] Received message from 129: 1
+[129] Received message from  54: 1
+[ 31] Received message from 113: 1
+[ 72] Received message from 141: 1
+[ 73] Received message from  43: 1
+[115] Received message from  64: 1
+[112] Received message from  55: 1
+[ 95] Received message from 146: 1
+[147] Received message from  24: 1
+[ 35] Received message from 147: 1
+[ 50] Received message from  84: 1
+[146] Sent Broadcast: 1|17
+[127] Received message from  28: 1
+[ 29] Sent Broadcast: 1|67
+[ 18] Received message from 115: 1
+[111] Received message from  83: 1
+[113] Received message from  31: 1
+[ 59] Received message from  85: 1
+[ 58] Received message from  94: 1
+[ 72] Received message from 148: 1
+[ 27] Received message from 110: 1
+[ 79] Received message from 102: 1
+[ 60] Received message from 101: 1
+[ 73] Received message from  57: 1
+[ 86] Received message from  79: 1
+[  8] Sent Broadcast: 1|24
+[ 94] Received message from  91: 1
+[ 35] Received message from 108: 1
+[ 31] Sent Broadcast: 1|70
+[ 85] Sent Broadcast: 1|8
+[147] Received message from  35: 1
+[108] Sent Broadcast: 1|4
+[ 84] Received message from  74: 1
+[142] Received message from  43: 1
+[ 24] Sent Broadcast: 1|4
+[115] Received message from  60: 1
+[135] Received message from  55: 1
+[ 35] Sent Broadcast: 1|24
+[148] Received message from 128: 1
+[ 43] Sent Broadcast: 1|37
+[117] Received message from 111: 1
+[ 55] Sent Broadcast: 1|64
+[ 60] Received message from 117: 1
+[129] Received message from  90: 1
+[134] Received message from  57: 1
+[ 58] Received message from  84: 1
+[147] Received message from  64: 1
+[128] Received message from 141: 1
+[ 54] Received message from 147: 1
+[128] Sent Broadcast: 1|49
+[ 91] Received message from  74: 1
+[ 71] Received message from  59: 1
+[115] Received message from  18: 1
+[ 86] Received message from  81: 1
+[ 74] Received message from  94: 1
+[ 90] Received message from 130: 1
+[ 77] Received message from 113: 1
+[ 57] Received message from  73: 1
+[ 27] Received message from 112: 1
+[101] Received message from 129: 1
+[ 60] Received message from 115: 1
+[ 81] Received message from 102: 1
+[ 98] Received message from 148: 1
+[117] Received message from  83: 1
+[100] Received message from  79: 1
+[143] Received message from  28: 1
+[ 57] Received message from 142: 1
+[128] Received message from 131: 1
+[ 64] Sent Broadcast: 1|54
+[ 28] Sent Broadcast: 1|60
+[ 93] Received message from  27: 1
+[142] Received message from  57: 1
+[113] Received message from  91: 1
+[ 27] Received message from 135: 1
+[ 83] Received message from 127: 1
+[ 55] Received message from 110: 1
+[115] Received message from 101: 1
+[130] Received message from  90: 1
+[147] Received message from  54: 1
+[117] Received message from  60: 1
+[ 83] Received message from 117: 1
+[131] Received message from 141: 1
+[ 74] Received message from  84: 1
+[ 94] Received message from  74: 1
+[127] Received message from 111: 1
+[ 81] Received message from  86: 1
+[ 57] Sent Broadcast: 1|43
+[ 59] Sent Broadcast: 1|85
+[ 91] Sent Broadcast: 1|3
+[ 60] Sent Broadcast: 1|88
+[ 90] Sent Broadcast: 1|6
+[ 54] Sent Broadcast: 1|18
+[ 74] Sent Broadcast: 1|67
+[ 83] Received message from 143: 1
+[ 77] Received message from 134: 1
+[ 87] Received message from  77: 1
+[ 81] Received message from 100: 1
+[ 79] Received message from 113: 1
+[129] Received message from  18: 1
+[ 73] Received message from 142: 1
+[ 64] Received message from 147: 1
+[149] Received message from  71: 1
+[ 84] Received message from  94: 1
+[102] Received message from  79: 1
+[115] Received message from 129: 1
+[ 93] Received message from 135: 1
+[ 94] Received message from  84: 1
+[112] Received message from  93: 1
+[142] Received message from  73: 1
+[ 87] Received message from 134: 1
+[127] Received message from  83: 1
+[106] Received message from 148: 1
+[142] Sent Broadcast: 1|43
+[147] Sent Broadcast: 1|56
+[110] Received message from 127: 1
+[ 86] Received message from 102: 1
+[100] Received message from  81: 1
+[ 71] Sent Broadcast: 1|59
+[ 84] Sent Broadcast: 1|67
+[100] Received message from  86: 1
+[ 73] Sent Broadcast: 1|43
+[143] Received message from 111: 1
+[111] Sent Broadcast: 1|28
+[148] Received message from 141: 1
+[ 86] Received message from 100: 1
+[130] Received message from  18: 1
+[128] Received message from 148: 1
+[ 93] Received message from 112: 1
+[141] Sent Broadcast: 1|106
+[129] Received message from 130: 1
+[130] Sent Broadcast: 1|19
+[ 64] Received message from 115: 1
+[141] Received message from 131: 1
+[100] Received message from 102: 1
+[ 91] Received message from 113: 1
+[112] Received message from  27: 1
+[130] Received message from 129: 1
+[ 18] Sent Broadcast: 1|52
+[118] Received message from  93: 1
+[143] Received message from  83: 1
+[110] Received message from 143: 1
+[111] Received message from 117: 1
+[129] Received message from 101: 1
+[113] Received message from  79: 1
+[112] Received message from 110: 1
+[111] Received message from 127: 1
+[101] Received message from 115: 1
+[102] Received message from  81: 1
+[102] Received message from  86: 1
+[118] Received message from  27: 1
+[132] Received message from  77: 1
+[ 91] Received message from  94: 1
+[ 83] Sent Broadcast: 1|28
+[101] Sent Broadcast: 1|54
+[129] Sent Broadcast: 1|56
+[131] Received message from 148: 1
+[ 94] Sent Broadcast: 1|67
+[148] Received message from 131: 1
+[110] Received message from 135: 1
+[131] Sent Broadcast: 1|49
+[102] Received message from 100: 1
+[113] Received message from 102: 1
+[111] Received message from 143: 1
+[132] Received message from  87: 1
+[135] Received message from  93: 1
+[ 93] Sent Broadcast: 1|27
+[134] Received message from  77: 1
+[141] Received message from 148: 1
+[102] Received message from 113: 1
+[117] Received message from 115: 1
+[118] Received message from 110: 1
+[148] Sent Broadcast: 1|121
+[ 77] Sent Broadcast: 1|113
+[112] Received message from 135: 1
+[113] Sent Broadcast: 1|70
+[120] Received message from  79: 1
+[ 87] Received message from 132: 1
+[110] Received message from 112: 1
+[135] Sent Broadcast: 1|55
+[120] Received message from  81: 1
+[ 27] Received message from 118: 1
+[115] Received message from 117: 1
+[132] Received message from 134: 1
+[134] Received message from  87: 1
+[117] Received message from 143: 1
+[134] Sent Broadcast: 1|57
+[112] Received message from 127: 1
+[122] Received message from  79: 1
+[120] Received message from  86: 1
+[127] Received message from 110: 1
+[135] Received message from  27: 1
+[ 79] Sent Broadcast: 1|70
+[ 87] Sent Broadcast: 1|77
+[ 27] Sent Broadcast: 1|110
+[122] Received message from  81: 1
+[134] Received message from 132: 1
+[118] Received message from 143: 1
+[129] Received message from 115: 1
+[117] Received message from 127: 1
+[ 81] Received message from 120: 1
+[127] Received message from 112: 1
+[ 81] Sent Broadcast: 1|79
+[127] Received message from 117: 1
+[122] Received message from  86: 1
+[ 86] Sent Broadcast: 1|79
+[120] Received message from 100: 1
+[132] Sent Broadcast: 1|77
+[115] Sent Broadcast: 1|54
+[110] Received message from 118: 1
+[ 81] Received message from 122: 1
+[118] Received message from 127: 1
+[135] Received message from 110: 1
+[122] Received message from 100: 1
+[100] Sent Broadcast: 1|79
+[143] Received message from 117: 1
+[ 86] Received message from 120: 1
+[120] Received message from 102: 1
+[117] Sent Broadcast: 1|28
+[127] Received message from 143: 1
+[135] Received message from 112: 1
+[143] Received message from 127: 1
+[100] Received message from 120: 1
+[ 86] Received message from 122: 1
+[127] Received message from 118: 1
+[112] Sent Broadcast: 1|55
+[143] Sent Broadcast: 1|28
+[127] Sent Broadcast: 1|28
+[122] Received message from 102: 1
+[102] Sent Broadcast: 1|31
+[143] Received message from 110: 1
+[110] Sent Broadcast: 1|64
+[100] Received message from 122: 1
+[102] Received message from 120: 1
+[143] Received message from 118: 1
+[118] Sent Broadcast: 1|93
+[122] Received message from 120: 1
+[102] Received message from 122: 1
+[120] Sent Broadcast: 1|79
+[120] Received message from 122: 1
+[122] Sent Broadcast: 1|79

@@ -1,0 +1,6 @@
+[  5] Received message from   1: 1|0
+[  1] Sent Broadcast: 1|0
+[  3] Received message from   2: 2|0
+[  2] Sent Broadcast: 2|0
+[  4] Received message from   3: 2|0,2
+[  3] Sent Broadcast: 2|0,2
