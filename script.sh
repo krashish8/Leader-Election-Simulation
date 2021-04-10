@@ -16,7 +16,7 @@ if [ ! -d "results/log-${algo_without_ext}" ]; then
 	mkdir "results/log-${algo_without_ext}"
 fi
 
-if [ ! -f "results/log-${algo_without_ext}/result.txt" ]; then
+if [ ! -f "results/log-${algo_without_ext}/result.csv" ]; then
 	echo "Algo,Nodes,Network Filename,Sent Messages,Received Messages" > "results/log-${algo_without_ext}/result.csv"
 fi
 
