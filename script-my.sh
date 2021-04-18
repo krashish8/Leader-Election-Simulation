@@ -20,7 +20,7 @@ if [ ! -f "results/log-${algo_without_ext}/result.csv" ]; then
 	echo "Algo,Nodes,Network Filename,History Length,Sent Messages,Received Messages" > "results/log-${algo_without_ext}/result.csv"
 fi
 
-history_count=5
+history_count=30
 rm -rf results/log-${algo_without_ext}/${nodes}/*
 for file in data/$nodes/*;
 do
